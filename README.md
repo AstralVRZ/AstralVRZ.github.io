@@ -2,6 +2,7 @@
 Website where all my projects are displayed
 
 # Todo list:
-- [ ] add more silly geocities images.
-- [ ] firgure out how to place them all over the page.
-- [ ] add more links when I think of them.
+- [ ] Add more silly geocities images.
+- [ ] Firgure out how to place them all over the page.
+- [ ] Add more links when I think of them.
+- [ ] Make an actual good favicon.
