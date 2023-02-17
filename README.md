@@ -1,5 +1,5 @@
 # AstralVRZ.github.io
-Website where all my projects are displayed
+Website where all my projects and some info about me are displayed.
 
 # Todo list:
 - [ ] Add more silly geocities images.
