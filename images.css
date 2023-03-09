@@ -27,3 +27,8 @@
     margin-top: -250px;
     margin-left: 400px;
 }
+
+.aligned-image {
+    display: inline-block;
+    vertical-align: middle;
+}
