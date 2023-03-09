@@ -1,8 +1,10 @@
 body {
     background-color: #00000000;
-    color: white;
+    color: #F5A9B8;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-family: Agency FB;
-    background-image: url(Images/Background/background\ cloud2.jpg);
+    font-size:20px;
+    background-image: url(Images/Background/sZ2C8auK_4x.jpg);
 }
 
 .text-rainbow-animation {
