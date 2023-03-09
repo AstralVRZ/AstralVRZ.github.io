@@ -1,6 +1,7 @@
 body {
     background-color: #F5A9B8;
     color: white;
+    font-family: Agency FB;
 }
 
 .text-rainbow-animation {
@@ -15,4 +16,22 @@ body {
     to {
         background-position: 4500vh;
     }
+}
+
+sup {
+  vertical-align: super;
+}
+
+.text-trans-animation {
+  background-image: 
+    linear-gradient(to right, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: trans-animation 3s linear infinite;
+}
+
+@keyframes trans-animation {
+  to {
+    background-position: 40vh;
+  }
 }
