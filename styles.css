@@ -61,7 +61,6 @@ sup {
 .flash-text {
   animation: flash 1s infinite;
   position: fixed;
-  font-family: 'W95FA', sans-serif;
   size: 16px;
   top: 10%;
   left: 6%;
