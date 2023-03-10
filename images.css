@@ -32,3 +32,11 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+#info {
+    position: fixed;
+    top: 35%;
+    left: 0%;
+    margin-top: -250px;
+    margin-left: 0px;
+}

@@ -57,3 +57,25 @@ sup {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 20px;
 }
+
+.flash-text {
+  animation: flash 1s infinite;
+  position: fixed;
+  size: 16px;
+  top: 10%;
+  left: 6%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+@keyframes flash {
+  0% {
+    color: black;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: black;
+  }
+}
