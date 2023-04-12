@@ -1,7 +1,7 @@
 body {
     color: blueviolet;
     font-family: Agency FB;
-    font-size:20px;
+    font-size:25px;
     background-image: url(Images/Background/spacebackground.gif);
 }
 
@@ -13,7 +13,6 @@ body {
       -webkit-text-fill-color: transparent;  
     animation: rainbow-animation 180s linear infinite;
   }
-  
   @keyframes rainbow-animation {
       to {
           background-position: 4500vh;
@@ -22,4 +21,26 @@ body {
   
   sup {
     vertical-align: super;
+}
+
+.text-trans-animation {
+  background-image: 
+    linear-gradient(to right, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);
+    background-clip: border-box; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: trans-animation 3s linear infinite;
+}
+@keyframes trans-animation {
+  to {
+    background-position: 40vh;
   }
+}
+
+.text-dutch {
+  background-image: 
+    linear-gradient(to bottom, red, white, blue);
+    background-clip: border-box; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
