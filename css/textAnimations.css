@@ -1,10 +1,3 @@
-body {
-    color: blueviolet;
-    font-family: Agency FB;
-    font-size:25px;
-    background-image: url(Images/Background/spacebackground.gif);
-}
-
 .text-rainbow-animation {
     background-image: 
       linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
@@ -44,3 +37,30 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
+
+.text-ench-animation {
+  background-image: url(../Images/misc/text_glint.png);
+    background-clip: border-box; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: ench-animation 5s linear infinite;
+}
+@keyframes ench-animation {
+  to {
+    background-position: 20vh;
+  }
+}
+
+.text-vapor-animation {
+    background-image: 
+      linear-gradient(to right,  #300350, #94167F, #E93479, #F9AC53, #F62E97);
+      background-clip: border-box; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: vapor-animation 3s linear infinite;
+  }
+  @keyframes vapor-animation {
+    to {
+      background-position: 40vh;
+    }
+  }
