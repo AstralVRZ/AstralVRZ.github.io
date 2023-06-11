@@ -10,3 +10,4 @@ Website where all my projects and some info about me are displayed.
 - [x] Pick out a good font, Because I dont really like this one.
 - [x] Do some cool css styling
 - [ ] finish about me page
+- [ ] Add Github link to my social links.
