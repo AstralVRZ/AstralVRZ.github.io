@@ -38,6 +38,13 @@
   -webkit-text-fill-color: transparent
 }
 
+.text-spijk {
+  background-image: 
+    linear-gradient(to bottom, #0063BE, #FFFFFF, #FCCC00);
+    background-clip: border-box; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
 .text-ench-animation {
   background-image: url(../Images/misc/text_glint.png);
     background-clip: border-box; 
