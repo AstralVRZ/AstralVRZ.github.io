@@ -1,0 +1,12 @@
+body {
+    font-weight: bold;
+    color: blueviolet;
+    font-family: Agency FB;
+    font-size:30px;
+    background-image: url(/Images//Background/bgblueclouds2.jpg);
+}
+
+h1 {
+    color: red;
+    font-weight: normal;
+}
