@@ -16,6 +16,24 @@
     vertical-align: super;
 }
 
+.text-rainbow-animation-small {
+  background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+    background-clip: border-box;
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+  animation: rainbow-animation 500s linear infinite;
+}
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+sup {
+  vertical-align: super;
+}
+
 .text-trans-animation {
   background-image: 
     linear-gradient(to right, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);

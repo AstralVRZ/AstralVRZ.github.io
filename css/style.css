@@ -4,3 +4,7 @@ body {
     font-size:25px;
     background-image: url(/Images/Background/spacebackground.gif);
 }
+
+.headers {
+    color: pink;
+}
