@@ -8,3 +8,11 @@ body {
 .headers {
     color: pink;
 }
+
+.va {
+    vertical-align: middle;
+}
+
+.il {
+    display: inline;
+}

@@ -64,7 +64,7 @@ sup {
   -webkit-text-fill-color: transparent
 }
 .text-ench-animation {
-  background-image: url(../Images/misc/text_glint.png);
+  background-image: url(/Images/misc/text_glint.png);
     background-clip: border-box; 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
