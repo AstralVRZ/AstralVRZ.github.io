@@ -1,5 +1,3 @@
-
-
 body{
 	background-color: black;
 	color: greenyellow;
@@ -41,7 +39,7 @@ blink {
 }
 
 .screen-container{
-	width: 40em;
+	width: 50em;
 	max-width: 95%;
 	margin: auto;
 	border:0.2em solid;
@@ -61,6 +59,10 @@ red{
 
 amber{
 	color:orange;
+}
+
+black{
+	color: black;
 }
 
 .content{
