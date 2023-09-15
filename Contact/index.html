@@ -1,31 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Contact Me!!</title>
+        <title>Jea's about me page!</title>
         <!--Embed stuff-->
-        <meta content="Contact Me!!" property="og:title" />
+        <meta content="My personal website!!!" property="og:title" />
         <meta content="Welcome to my poorly made website about myself!" property="og:description" />
         <meta content="https://astralvrz.github.io/" property="og:url" />
-        <meta content="https://raw.githubusercontent.com/AstralVRZ/AstralVRZ.github.io/main/Old/Images/Cats/Heart%20eyes%E2%99%A1.jpg" property="og:image" />
+        <meta content="/Images/EmbedImage.jpg" property="og:image" />
         <meta content="#F5A9B8" data-react-helmet="true" name="theme-color" />
+        <!--Css thingies-->
         <link rel="shortcut icon" href="/Images/pixilart-drawing.png"> 
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/Contact.css">
         <link rel="stylesheet" href="/css/textAnimations.css">
         <!--Twitter embed shit-->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Contact me!!">
-        <meta name="twitter:description" content="Jea/Astral's contact page">
-        <meta name="twitter:image" content="https://raw.githubusercontent.com/AstralVRZ/AstralVRZ.github.io/main/Old/Images/Cats/Heart%20eyes%E2%99%A1.jpg">
-        <meta name="twitter:url" content="https://astralvrz.github.io/Contact/">
+        <meta name="twitter:title" content="My personal website!">
+        <meta name="twitter:description" content="Welcome to my poorly made website about myself!">
+        <meta name="twitter:image" content="/Images/EmbedImage.jpg">
+        <meta name="twitter:url" content="https://astralvrz.github.io/">
     </head>
-    <body class="body-offset">
-        <center><div class="text-rainbow-animation"><h1>Contact me!</h1></div></center>
-        <p>
-            Welcome to my contact page! You can find links to my socialmedia accounts and someother links!
-            <div>
-                <table cellspacing="10">
+
+    <body>
+        <div>
+            <!--Funny cat on the screen-->
+            <script src="/javascript/oneko.js"></script>
+        </div>
+
+        <div id="title"><h1>Contact me!</h1></div>
+
+        <div class="container">
+            <div class="header">
+                <div id="header_img"></div>
+            </div>
+
+            <div class="main">
+                <div style="text-align: center;" class="headers">Contact me!</span></div>
+                <hr>
+                <center>
+                    <table cellspacing="10">
                     <td>
                         Email:<br>
                         <a href="mailto:jea.van.zoelen@gmail.com"><img src="/Images/Badges/gmail.gif" class="va"></a><br>
@@ -36,7 +50,8 @@
                     </td>
                     <td>
                         Discord:<br>
-                        Jea#1423
+                        Jea#1423<br>
+                        or astralarchivists
                     </td>
                     <td>
                         Server:<br> 
@@ -55,22 +70,17 @@
                         <a href="https://cohost.org/VRZ" target="_blank"><img src="/Images/Badges/cohost button 4.png"></a>
                     </td>
                 </table>
-                <br>
-                <center>
-                    <a href="/"><img src="/Images/Geocities/back.gif" alt=""></a> Back to home page.
                 </center>
+                
             </div>
-        </p>
-        <p>
-            <div class="sidebar">
-                Links to various places
-                <link rel="stylesheet" href="/css/sidebar.css">
+            <div class="foot">
+                <div style="text-align: center;" class="headers">Links to various places</div>
                 <ul>
-                <li><a href="/">Home page</a></li>
-                <li><a href="/About/">About me!</a></li>
-                <li><a href="/Old/">Old site (very broken)</a></li>
+                    <li><a href="/">Home page</a></li>
+                    <li><a href="/Contact/">Contact me!</a></li>
+                    <li><a href="/About/">About me!</a></li>
                 </ul>
-                <p>He who walks beneath dreams.</p>
             </div>
-        </p>
+        </div>
     </body>
+</html>
