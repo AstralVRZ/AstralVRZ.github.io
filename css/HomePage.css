@@ -4,24 +4,30 @@ body {
     font-size: 3vh;
     background-image: url(/Images/Background/spacebackground.gif);
 }
+
 .headers {
     color: pink;
 }
+
 .va {
     vertical-align: middle;
 }
+
 .il {
     display: inline;
 }
+
 ::-webkit-scrollbar {
     width: 15px;
     height: 15px; 
     background-color: #000;
 }
+
 ::-webkit-scrollbar-thumb {
     border: 1px solid #000;
     background-color: blueviolet
 }
+
 ::-webkit-scrollbar-button:start:decrement,
 ::-webkit-scrollbar-button:end:increment {
     height: 15px;
@@ -31,31 +37,39 @@ body {
     border: 1px solid blueviolet;  
     background-color: #000;
 }
+
 ::-webkit-scrollbar-button:vertical:decrement {
     background-image: url();
 }
+
 ::-webkit-scrollbar-button:vertical:increment {
     background-image: url();
 }
+
 p{
     margin:2.5%;
 }
+
 hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, black, blueviolet, black);
 }
+
 a{
     color: rgb(138, 43, 226);
     text-decoration: underline dashed; }
+
 a:hover{
     color: #FBB1C0;
 }
+
 #title{
     top:3%;
     position:absolute;
     left:30%;
     text-shadow: 2px 2px white;}
+
 .container {  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -85,6 +99,7 @@ a:hover{
     width:60%;
     height: 1100px;
 }
+
 .header { 
     grid-area: header; 
     background-color: aqua;
@@ -92,6 +107,7 @@ a:hover{
     width:100%;
     height:100%;
 }
+
 #header_img{
     width:100%;
     height:100%;
@@ -99,6 +115,7 @@ a:hover{
     background-position: 57% 50%; 
     background-image:url('/Images/Background/purpskybg.jpg');
 }
+
 .profile1 { 
     grid-area: profile1; 
     background-color: rgba(0,0,0,0.7);
@@ -106,6 +123,7 @@ a:hover{
     width:100%;
     border: blueviolet 1px solid; 
 }
+
 .profile2 { 
     grid-area: profile2; 
     background-color: rgba(0,0,0,0.7);
@@ -114,6 +132,7 @@ a:hover{
     border: blueviolet 1px solid; 
     overflow:auto;
 }
+
 .main { 
     grid-area: main; 
     background-color: rgba(0,0,0,0.7);
@@ -122,8 +141,7 @@ a:hover{
     border: blueviolet 1px solid; 
     overflow:auto;
 }
-
-/* this is this biggest bulk of text. the main content. */.profile3 { 
+.profile3 { 
     grid-area: profile3; 
     background-color: rgba(0,0,0,0.7);
     height:100%;
@@ -131,11 +149,13 @@ a:hover{
     border: blueviolet 1px solid; 
     overflow:auto;
 }
+
 .center-middle {
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
+
 .profile4 { 
     grid-area: profile4; 
     background-color: rgba(0,0,0,0.7);
@@ -144,6 +164,7 @@ a:hover{
     border: blueviolet 1px solid; 
     overflow:auto;
 }
+
 .profile5 { 
     grid-area: profile5; 
     background-color: rgba(0,0,0,0.7);
@@ -152,8 +173,7 @@ a:hover{
     border: blueviolet 1px solid; 
     overflow:auto;
 }
-
-/* this is where you can put stats or whatever! the bottom box on the lef thand side */.foot { 
+.foot { 
     grid-area: foot; 
     background-color: rgba(0,0,0,0.7);
     height:100%;
@@ -161,14 +181,11 @@ a:hover{
     border: blueviolet 1px solid; 
     overflow:auto;
 }
-
-/* and lastly, the "footer". */.center {
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-/* this centers images if you add "class=center" to the end of them *//* and lastly, below is styling for mobile users. you can tinker with this if you'd like! */
 @media only screen and (max-width: 640px) {  .container{
     display: flex; 
     flex-flow: column; 
@@ -178,44 +195,51 @@ a:hover{
     margin-top:3%;
     font-size:2vh;
   }
+
   .header{
     height:150%;
     order: 1;
   }
+
   .main{
     order:2;
     height:250%;
   }
+
   .profile1{
     display:none
   }
-
-  /* be mindful that this will remove this section from mobile. if you'd like that section to be shown then you have to edit it! */  .profile2{
+  .profile2{
     height:25%;
     order:3;
     height:150%;
   }
+
   body{
     font-size: 3vh;
   }
+
   ul{
     margin-left:28%;
   }
+
   .profile3{
     order:4;
   }
+
   .foot{
     order:5;
   }
-
   .profile4{
     order: 6;
   }
-
   .profile5{
     order: 7;
   }
+
   #title{
     display:none;
   }
+
 }
+

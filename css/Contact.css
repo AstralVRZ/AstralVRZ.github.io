@@ -4,24 +4,30 @@ body {
     font-size: 3vh;
     background-image: url(/Images/Background/spacebackground.gif);
 }
+
 .headers {
     color: pink;
 }
+
 .va {
     vertical-align: middle;
 }
+
 .il {
     display: inline;
 }
+
 ::-webkit-scrollbar {
     width: 15px;
     height: 15px; 
     background-color: #000;
 }
+
 ::-webkit-scrollbar-thumb {
     border: 1px solid #000;
     background-color: blueviolet
 }
+
 ::-webkit-scrollbar-button:start:decrement,
 ::-webkit-scrollbar-button:end:increment {
     height: 15px;
@@ -31,33 +37,41 @@ body {
     border: 1px solid blueviolet;  
     background-color: #000;
 }
+
 ::-webkit-scrollbar-button:vertical:decrement {
     background-image: url();
 }
+
 ::-webkit-scrollbar-button:vertical:increment {
     background-image: url();
 }
+
 p{
     margin:2.5%;
 }
+
 hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, black, blueviolet, black);
 }
+
 a{
     color: rgb(138, 43, 226);
     text-decoration: underline dashed; 
 }
+
 a:hover{
     color: #FBB1C0;
 }
+
 #title{
     top:3%;
     position:absolute;
     left:30%;
     text-shadow: 2px 2px white;
 }
+
 .container {  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -79,6 +93,7 @@ a:hover{
     width:60%;
     height: 500px;
 }
+
 .header { 
     grid-area: header; 
     background-color: aqua;
@@ -86,6 +101,7 @@ a:hover{
     width:100%;
     height:100%;
 }
+
 #header_img{
     width:100%;
     height:100%;
@@ -93,6 +109,7 @@ a:hover{
     background-position: 57% 50%; 
     background-image:url('/Images/Background/purpskybg.jpg');
 }
+
 .main { 
     grid-area: main; 
     background-color: rgba(0,0,0,0.7);
@@ -101,11 +118,13 @@ a:hover{
     border: blueviolet 1px solid; 
     overflow:auto;
 }
+
 .center-middle {
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
+
 .foot { 
     grid-area: foot; 
     background-color: rgba(0,0,0,0.7);
@@ -114,11 +133,13 @@ a:hover{
     border: blueviolet 1px solid; 
     overflow:auto;
 }
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 @media only screen and (max-width: 640px) {
   .container{
     display: flex; 
@@ -129,35 +150,46 @@ a:hover{
     margin-top:3%;
     font-size:2vh;
   }
+
   .header{
     height:150%;
     order: 1;
   }
+
   .main{
     order:2;
     height:250%;
   }
+
   .profile1{
     display:none
   }
+
   .profile2{
     height:25%;
     order:3;
     height:150%;
   }
+
   body{
     font-size: 3vh;
   }
+
   ul{
     margin-left:28%;
   }
+
   .profile3{
     order:4;
   }
+
   .foot{
     order:5;
   }
+
   #title{
     display:none;
   }
+
 }
+
