@@ -161,30 +161,12 @@ a:hover{
     height:250%;
   }
 
-  .profile1{
-    display:none
-  }
-
-  .profile2{
-    height:25%;
-    order:3;
-    height:150%;
-  }
-
   body{
     font-size: 3vh;
   }
 
   ul{
     margin-left:28%;
-  }
-
-  .profile3{
-    order:4;
-  }
-
-  .foot{
-    order:5;
   }
 
   #title{
