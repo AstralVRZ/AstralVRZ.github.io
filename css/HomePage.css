@@ -85,9 +85,9 @@ a:hover{
     "profile2 header header header profile1"
     "profile2 main main main ."
     "profile3 main main main profile5"
-    ".  foot foot foot profile5"
-    ".  foot foot foot profile5"
-    ".  foot foot foot profile5"
+    "profile6  foot foot foot profile5"
+    "profile6  foot foot foot profile5"
+    "profile6  foot foot foot profile5"
     "profile4 profile4 profile4 profile4 profile4"
     "profile4 profile4 profile4 profile4 profile4"
     "profile4 profile4 profile4 profile4 profile4"
@@ -173,6 +173,16 @@ a:hover{
     border: blueviolet 1px solid; 
     overflow:auto;
 }
+
+.profile6 { 
+    grid-area: profile6; 
+    background-color: rgba(0,0,0,0.7);
+    height:100%;
+    width:100%;
+    border: blueviolet 1px solid; 
+    overflow:auto;
+}
+
 .foot { 
     grid-area: foot; 
     background-color: rgba(0,0,0,0.7);
