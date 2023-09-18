@@ -68,10 +68,10 @@ a:hover{
         justify-items: center;
         align-items: center;
         grid-template-areas:
-        ". header header header ."
-        ". main main main ."
+        "header header header header header"
+        ". main main main foot"
         "profile2 profile2 profile2 profile1 foot"
-        "profile4 profile3 profile3 profile3 foot"
+        "profile4 profile3 profile3 profile3 ."
         ". . . . .";
         margin: 0 auto;
         margin-top: 8%;
