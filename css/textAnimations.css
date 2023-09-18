@@ -30,7 +30,6 @@
     }
 }
 
-
 sup {
   vertical-align: super;
 }
@@ -64,6 +63,7 @@ sup {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
 }
+
 .text-ench-animation {
   background-image: url(/Images/misc/text_glint.png);
     background-clip: border-box; 
@@ -90,3 +90,20 @@ sup {
       background-position: 40vh;
     }
   }
+
+.wave {
+  animation: wave 1s infinite;
+  display: inline-block;
+  transform-origin: bottom;
+  animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
