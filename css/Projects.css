@@ -59,7 +59,7 @@ a:hover{
 .container {  
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 5fr 10fr 10fr 10fr 0.1fr;
+        grid-template-rows: 5fr 10fr 10fr 10fr 10fr;
         grid-auto-columns: 1fr;
         gap: 10px 1%;
         grid-auto-flow: row;
@@ -71,13 +71,13 @@ a:hover{
         "header header header header header"
         ". main main main foot"
         "profile2 profile2 profile2 profile1 foot"
-        "profile4 profile3 profile3 profile3 ."
-        ". . . . .";
+        "profile4 profile3 profile3 profile3 profile6"
+        ". profile7 profile5 profile5 profile5";
         margin: 0 auto;
         margin-top: 8%;
         margin-left: 22%;
         width:60%;
-        height:700px;
+        height:900px;
     }
 .header { 
     grid-area: header; 
@@ -126,6 +126,30 @@ a:hover{
 }
 .profile4 { 
     grid-area: profile4; 
+    background-color: rgba(0,0,0,0.7);
+    height:100%;
+    width:100%;
+    border: blueviolet 1px solid; 
+    overflow:auto;
+}
+.profile5 { 
+    grid-area: profile5; 
+    background-color: rgba(0,0,0,0.7);
+    height:100%;
+    width:100%;
+    border: blueviolet 1px solid; 
+    overflow:auto;
+}
+.profile6 { 
+    grid-area: profile6; 
+    background-color: rgba(0,0,0,0.7);
+    height:100%;
+    width:100%;
+    border: blueviolet 1px solid; 
+    overflow:auto;
+}
+.profile7 { 
+    grid-area: profile7; 
     background-color: rgba(0,0,0,0.7);
     height:100%;
     width:100%;
