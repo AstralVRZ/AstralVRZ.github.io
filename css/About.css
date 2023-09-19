@@ -1,12 +1,23 @@
 body {
-    color: blueviolet;
+    color: #8a2be2;
     font-family: Agency FB;
     font-size: 3vh;
     background-image: url(/Images/Background/spacebackground.gif);
 }
 
+.intro {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 0.5fr 2fr;
+    margin:2.5%;
+}
+
+.image{
+    border: blueviolet 1px solid;
+}
+
 .headers {
-    color: pink;
+    color: #ffc0cb;
 }
 
 .va {
@@ -73,7 +84,7 @@ a:hover{
 .container {  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 10fr 30fr 0.1fr;
+    grid-template-rows: 10fr 15fr 30fr 0.1fr;
     grid-auto-columns: 1fr;
     gap: 10px 1%;
     grid-auto-flow: row;
@@ -82,14 +93,15 @@ a:hover{
     justify-items: center;
     align-items: center;
     grid-template-areas:
-    "foot header header header ."
+    "foot header header header header"
+    "foot profile1 profile1 profile1 profile1"
     "main main main main main"
     ". . . . .";
     margin: 0 auto;
     margin-top: 8%;
     margin-left: 22%;
     width:60%;
-    height: 700px;
+    height: 900px;
 }
 
 .header { 
@@ -130,6 +142,14 @@ a:hover{
     width:100%;
     border: blueviolet 1px solid; 
     overflow:auto;
+}
+
+.profile1 { 
+    grid-area: profile1; 
+    background-color: rgba(0,0,0,0.7);
+    height:100%;
+    width:100%;
+    border: blueviolet 1px solid;
 }
 
 .center {
