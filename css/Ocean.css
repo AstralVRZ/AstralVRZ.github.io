@@ -1,0 +1,43 @@
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 10px 1%;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+    ". f4 . f6 . ."
+    "f7 . f1 . . ."
+    ". . . f3 . ."
+    "f2 . . . . ."
+    ". . . . . f5";
+    margin: 0 auto;
+    width:100%;
+    height:100%;
+}
+
+.f1 { 
+    grid-area: f1; 
+}
+.f2 { 
+    grid-area: f2; 
+}
+.f3 { 
+    grid-area: f3; 
+}
+.f4 { 
+    grid-area: f4; 
+}
+.f5 { 
+    grid-area: f5; 
+}
+.f6 { 
+    grid-area: f6; 
+}
+.f7 { 
+    grid-area: f7; 
+}

@@ -78,7 +78,8 @@ a:hover{
         margin-left: 22%;
         width:60%;
         height:700px;
-    }.header { 
+    }
+.header { 
     grid-area: header; 
     background-color: aqua;
     border: blueviolet 1px solid; 
