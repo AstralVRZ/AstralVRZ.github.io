@@ -37,7 +37,7 @@ body {
 ::-webkit-scrollbar-button:vertical:increment {
     background-image: url();
 }
-p{
+p {
     margin:2.5%;
 }
 hr {
@@ -45,17 +45,18 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, black, blueviolet, black);
 }
-a{
+a {
     color: rgb(138, 43, 226);
     text-decoration: underline dashed; }
-a:hover{
+a:hover {
     color: #FBB1C0;
 }
 #title{
     top:3%;
     position:absolute;
     left:30%;
-    text-shadow: 2px 2px white;}
+    text-shadow: 2px 2px white;
+}
 .container {  
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -78,7 +79,7 @@ a:hover{
         margin-left: 22%;
         width:60%;
         height:700px;
-    }
+}
 .header { 
     grid-area: header; 
     background-color: aqua;
@@ -115,7 +116,8 @@ a:hover{
     width:100%;
     border: blueviolet 1px solid; 
     overflow:auto;
-}.profile3 { 
+}
+.profile3 { 
     grid-area: profile3; 
     background-color: rgba(0,0,0,0.7);
     height:100%;
