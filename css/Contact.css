@@ -85,8 +85,7 @@ a:hover{
     align-items: center;
     grid-template-areas:
     "foot header header header ."
-    "main main main main main"
-    ". . . . .";
+    "main main main main main";
     margin: 0 auto;
     margin-top: 8%;
     margin-left: 22%;
