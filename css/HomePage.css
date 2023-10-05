@@ -70,6 +70,12 @@ a:hover{
     left:30%;
     text-shadow: 2px 2px white;}
 
+#amplocation {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .container {  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -225,7 +231,7 @@ a:hover{
   }
 
   .profile1{
-    display:none
+    order: 0;
   }
   .profile2{
     height:25%;
@@ -255,6 +261,13 @@ a:hover{
     order: 7;
   }
 
+  .profile6{
+    order: 8;
+  }
+
+  .profile7{
+    order: 9;
+  }
   #title{
     display:none;
   }
