@@ -11,6 +11,12 @@ new Webamp({
 
         {metaData: {artist: "machine girl",title: "glass ocean",},
         url: "https://files.catbox.moe/n2qbnf.mp3",},
+
+        {metaData: {artist: "knylon/candlelitsmiles",title: "Pride (2023 Version)",},
+        url: "https://files.catbox.moe/1sbxgt.mp3",},
+        
+        {metaData: {artist: "Animadrop",title: "Into the noise",},
+        url: "/Audio/Into the noise.m4a",},
     ],
     initialSkin: {url: "/Webamp/spaceskin.wsz"},
 }).renderWhenReady(app);
