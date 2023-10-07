@@ -14,7 +14,7 @@ body{
 	padding: 0!important;
 	margin: 1em!important;
 	font-family: "pc-9800",monospace;
-	font-size: 1.5em;
+	font-size: 3vh;
 }
 
 @media screen and (max-width: 500px) {
@@ -48,7 +48,7 @@ blink {
   }
 
 .screen-container{
-	width: 50em;
+	width: 80%;
 	max-width: 95%;
 	margin: auto;
 	border:0.2em solid;
