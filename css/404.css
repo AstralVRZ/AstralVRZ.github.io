@@ -1,12 +1,19 @@
 .va{
 	vertical-align: middle;
 }
+
+@font-face {
+	font-family: "pc-9800";
+	src: url(/Fonts/pc-9800.ttf);
+}
+
+
 body{
 	background-color: black;
 	color: greenyellow;
 	padding: 0!important;
 	margin: 1em!important;
-	font-family: "Agency FB",monospace;
+	font-family: "pc-9800",monospace;
 	font-size: 1.5em;
 }
 
