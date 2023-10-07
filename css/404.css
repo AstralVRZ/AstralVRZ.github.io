@@ -1,3 +1,6 @@
+.va{
+	vertical-align: middle;
+}
 body{
 	background-color: black;
 	color: greenyellow;
@@ -63,6 +66,14 @@ amber{
 
 black{
 	color: black;
+}
+
+purple{
+	color: blueviolet;
+}
+
+blue{
+	color: blue;
 }
 
 .content{
