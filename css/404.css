@@ -2,6 +2,10 @@
 	vertical-align: middle;
 }
 
+.il {
+    display: inline;
+}
+
 @font-face {
 	font-family: "pc-9800";
 	src: url(/Fonts/pc-9800.ttf);
