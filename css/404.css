@@ -11,6 +11,14 @@
 	src: url(/Fonts/pc-9800.ttf);
 }
 
+@font-face {
+	font-family: "pc-9800-bold";
+	src: url(/Fonts/pc-9800-bold.ttf);
+}
+
+b 	{
+	font-family: "pc-9800-bold",monospace;
+}
 
 body{
 	background-color: black;
