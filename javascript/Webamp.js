@@ -17,6 +17,9 @@ new Webamp({
         
         {metaData: {artist: "Animadrop",title: "Into the noise",},
         url: "/Audio/Into the noise.m4a",},
+
+        {metaData: {artist: "On Principle",title: "909girl",},
+        url: "/Audio/909girl.mp3",},
     ],
     initialSkin: {url: "/Webamp/spaceskin.wsz"},
 }).renderWhenReady(app);
