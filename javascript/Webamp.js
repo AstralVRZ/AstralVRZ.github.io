@@ -19,7 +19,7 @@ new Webamp({
         url: "/Audio/Into the noise.m4a",},
 
         {metaData: {artist: "On Principle",title: "909girl",},
-        url: "/Audio/909girl.mp3",},
+        url: "/Audio/909Girl.mp3",},
     ],
     initialSkin: {url: "/Webamp/spaceskin.wsz"},
 }).renderWhenReady(app);
