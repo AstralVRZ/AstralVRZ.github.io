@@ -6,6 +6,7 @@ body {
 }
 .headers {
     color: pink;
+    font-weight: bold;
 }
 .va {
     vertical-align: middle;
