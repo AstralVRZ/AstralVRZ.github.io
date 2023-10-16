@@ -48,7 +48,7 @@ p {
 hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, black, #c97f42, black);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.1), #c97f42, rgba(0,0,0,0.1));
 }
 a {
     color: rgb(138, 43, 226);
@@ -78,7 +78,7 @@ a:hover {
         " profile1 main main main ."
         " profile1 main main main ."
         ". profile3 foot foot ."
-        ". profile2 . . .";
+        ". . . . .";
         margin: 0 auto;
         margin-top: 8%;
         margin-left: 22%;
