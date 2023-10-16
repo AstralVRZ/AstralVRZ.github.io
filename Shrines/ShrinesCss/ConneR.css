@@ -4,10 +4,25 @@ body {
     font-size: 3vh;
     background-image: url(/Shrines/ShrineMedia/ConneR/Images/ConneRBG.gif);
     background-size: 100%;
+    cursor: url('/Images/Cursors/DEFAULTCONNER.CUR'), default;
 }
 audio::-webkit-media-controls-panel {
     background-color: #c97f42;
-  }
+    cursor: url('/Images/Cursors/DEFAULTCONNER.CUR'), default;
+}
+audio::-webkit-media-controls-mute-button{
+    cursor: url('/Images/Cursors/LINKCONNER.CUR'), default;
+}
+audio::-webkit-media-controls-play-button {
+    cursor: url('/Images/Cursors/LINKCONNER.CUR'), default;
+}
+audio::-webkit-media-controls-volume-slider{
+    cursor: url('/Images/Cursors/DEFAULTCONNER.CUR'), default;
+}
+audio::-webkit-media-controls-timeline {
+    cursor: url('/Images/Cursors/DEFAULT.CUR'), default;
+}
+
 .headers {
     color: black;
     font-weight: bold;
@@ -52,7 +67,9 @@ hr {
 }
 a {
     color: rgb(138, 43, 226);
-    text-decoration: underline dashed; }
+    text-decoration: underline dashed;
+    cursor: url('/Images/Cursors/LINKCONNER.CUR'), default;
+}
 a:hover {
     color: #FBB1C0;
 }
