@@ -100,7 +100,7 @@ a:hover {
         margin-top: 8%;
         margin-left: 22%;
         width:60%;
-        height:700px;
+        height: 100vh;
 }
 .header { 
     grid-area: header; 
