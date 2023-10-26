@@ -1,10 +1,15 @@
+@font-face {
+    font-family: "Font";
+    src: url(/Fonts/raster.ttf);
+}
 body {
     color: #c97f42;
-    font-family: Agency FB;
+    font-family: "Font";
     font-size: 3vh;
     background-image: url(/Shrines/ShrineMedia/ConneR/Images/ConneRBG.gif);
     background-size: 100%;
     cursor: url('/Images/Cursors/DEFAULTCONNER.CUR'), default;
+
 }
 audio::-webkit-media-controls-panel {
     background-color: #c97f42;
