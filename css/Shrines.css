@@ -1,12 +1,27 @@
+@font-face {
+    font-family: NoitaFont;
+    src: url(/Fonts/NoitaPixel.ttf);
+}
+@font-face {
+    font-family: Glyphs;
+    src: url(/Fonts/NoitaGlyphScaled.ttf);
+}
+
+.glyphs {
+    font-family: Glyphs;
+    color: rgb(150, 0, 0);
+}
+
 body {
     color: blueviolet;
-    font-family: Agency FB;
-    font-size: 3vh;
+    font-family: NoitaFont;
+    font-size: 2.5vh;
     background-image: url(/Images/Background/spacebackground.gif);
 }
 .headers {
     color: pink;
     font-weight: bold;
+    font-size: 3vh;
 }
 .va {
     vertical-align: middle;
@@ -61,7 +76,7 @@ a:hover {
 .container {  
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 5fr 10fr 5fr 0.1fr;
+        grid-template-rows: 2.5fr 5fr 5fr 5fr 0.1fr;
         grid-auto-columns: 1fr;
         gap: 10px 1%;
         grid-auto-flow: row;
@@ -70,9 +85,10 @@ a:hover {
         justify-items: center;
         align-items: center;
         grid-template-areas:
-        ". header header header ."
-        ". profile1 main main ."
-        ". profile1 main main ."
+        "header header header header header"
+        "profile1 main main main profile2"
+        "profile1 main main main profile2"
+        "profile3 main main main profile2"
         ". . . . .";
         margin: 0 auto;
         margin-top: 8%;
@@ -130,14 +146,7 @@ a:hover {
     justify-content: center; 
     align-items: center; 
 }
-.foot { 
-    grid-area: foot; 
-    background-color: rgba(0,0,0,0.7);
-    height:100%;
-    width:100%;
-    border: blueviolet 1px solid; 
-    overflow:auto;
-}
+
 .center {
     display: block;
     margin-left: auto;
