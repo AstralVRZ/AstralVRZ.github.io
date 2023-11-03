@@ -25,7 +25,7 @@ audio::-webkit-media-controls-volume-slider{
     cursor: url('/Images/Cursors/DEFAULTCONNER.CUR'), default;
 }
 audio::-webkit-media-controls-timeline {
-    cursor: url('/Images/Cursors/DEFAULT.CUR'), default;
+    cursor: url('/Images/Cursors/DEFAULTCONNER.CUR'), default;
 }
 
 .headers {
