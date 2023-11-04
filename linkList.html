@@ -1,11 +1,19 @@
+<audio id="clickSound" src="/Audio/winclick.mp3"></audio>
+<script>
+    function playSound() {
+        var sound = document.getElementById("clickSound")
+        sound.play();
+    }
+</script>
+
 <div style="text-align: center; margin: 2.5%;" class="headers">Links to various places</div>
 <hr>
 <ul>
-    <li><a href="/">Homepage!</a><img src="/Images/Geocities/home.gif"></li>
-    <li><a href="/Contact/">Contact me!</a></li>
-    <li><a href="/About/">About me!</a></li>
-    <li><a href="/Credits/">Credits</a></li>
-    <li><a href="/Projects/">My projects!</a></li>
-    <li><a href="/Aquarium/">My aquarium (turn on audio in settings)</a></li>
-    <li><a href="/Shrines/">Shrines page</a></li><img src="/Images/Geocities/rainbow-new.gif">
+    <li><a href="/" onclick="playSound()">Homepage!</a><img src="/Images/Geocities/home.gif"></li>
+    <li><a href="/Contact/" onclick="playSound()">Contact me!</a></li>
+    <li><a href="/About/" onclick="playSound()">About me!</a></li>
+    <li><a href="/Credits/" onclick="playSound()">Credits</a></li>
+    <li><a href="/Projects/" onclick="playSound()">My projects!</a></li>
+    <li><a href="/Aquarium/" onclick="playSound()">My aquarium (turn on audio in settings)</a></li>
+    <li><a href="/Shrines/" onclick="playSound()">Shrines page</a></li><img src="/Images/Geocities/rainbow-new.gif">
 </ul>
