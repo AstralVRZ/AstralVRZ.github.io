@@ -79,15 +79,15 @@ sup {
 
 .text-vapor-animation {
     background-image: 
-      linear-gradient(to right,  #300350, #94167F, #E93479, #F9AC53, #F62E97);
+      linear-gradient(to right,  #300350, #94167F, #E93479, #F9AC53, #F62E97, #F9AC53, #E93479, #94167F, #300350);
       background-clip: border-box; 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;  
-    animation: vapor-animation 3s linear infinite;
+    animation: vapor-animation 20s linear infinite;
   }
   @keyframes vapor-animation {
     to {
-      background-position: 40vh;
+      background-position: 200vh;
     }
   }
 
