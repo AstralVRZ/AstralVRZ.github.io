@@ -47,9 +47,11 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, black, blueviolet, black);
 }
-a{
+a {
     color: rgb(138, 43, 226);
-    text-decoration: underline dashed; }
+    text-decoration: underline dashed; 
+    transition: color 0.25s ease-in-out;
+}
 a:hover{
     color: #FBB1C0;
 }

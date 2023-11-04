@@ -57,9 +57,10 @@ hr {
     background-image: linear-gradient(to right, black, blueviolet, black);
 }
 
-a{
+a {
     color: rgb(138, 43, 226);
     text-decoration: underline dashed; 
+    transition: color 0.25s ease-in-out;
 }
 
 a:hover{
