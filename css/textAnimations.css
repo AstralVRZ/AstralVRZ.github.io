@@ -69,7 +69,7 @@ sup {
     background-clip: border-box; 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
-  animation: ench-animation 5s linear infinite;
+  animation: ench-animation 3s linear alternate infinite;
 }
 @keyframes ench-animation {
   to {
