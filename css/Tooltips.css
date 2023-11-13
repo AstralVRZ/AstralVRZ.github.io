@@ -1,0 +1,28 @@
+@font-face {
+    font-family:Minecraft ;
+    src: url(/Fonts/Minecraft.woff);
+}
+
+.tooltip {
+    position: relative;
+    display: inline;
+}
+
+.tooltip:hover::after {
+    content: attr(tip);
+    position:absolute;
+    background: #000;
+    color: #fff;
+    font-family: Minecraft;
+    font-size: small;
+    padding-bottom:3px;
+    padding-left:3px;
+    padding-right:3px;
+    white-space: nowrap;
+    bottom: 70%;
+    transform: translateX(-50%);
+    visibility: visible;
+    border: 3px solid;
+    border-color: blueviolet;
+    border-image-slice: 1;
+}
