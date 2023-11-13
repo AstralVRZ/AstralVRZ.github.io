@@ -63,7 +63,7 @@ a:hover {
 .container {  
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 10fr 5fr 5fr 5fr 0.1fr;
+        grid-template-rows: 5fr 10fr 10fr 10fr 0.1fr;
         grid-auto-columns: 1fr;
         gap: 10px 1%;
         grid-auto-flow: row;
