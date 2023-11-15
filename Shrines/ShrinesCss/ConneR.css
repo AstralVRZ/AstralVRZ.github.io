@@ -2,6 +2,7 @@
     font-family: "Font";
     src: url(/Fonts/raster.ttf);
 }
+
 body {
     color: #c97f42;
     font-family: "Font";
@@ -11,19 +12,24 @@ body {
     cursor: url('/Images/Cursors/DEFAULTCONNER.CUR'), default;
 
 }
+
 audio::-webkit-media-controls-panel {
     background-color: #c97f42;
     cursor: url('/Images/Cursors/DEFAULTCONNER.CUR'), default;
 }
-audio::-webkit-media-controls-mute-button{
+
+audio::-webkit-media-controls-mute-button {
     cursor: url('/Images/Cursors/LINKCONNER.CUR'), default;
 }
+
 audio::-webkit-media-controls-play-button {
     cursor: url('/Images/Cursors/LINKCONNER.CUR'), default;
 }
-audio::-webkit-media-controls-volume-slider{
+
+audio::-webkit-media-controls-volume-slider {
     cursor: url('/Images/Cursors/DEFAULTCONNER.CUR'), default;
 }
+
 audio::-webkit-media-controls-timeline {
     cursor: url('/Images/Cursors/DEFAULTCONNER.CUR'), default;
 }
@@ -32,183 +38,217 @@ audio::-webkit-media-controls-timeline {
     color: black;
     font-weight: bold;
 }
+
 .va {
     vertical-align: middle;
 }
+
 .il {
     display: inline;
 }
+
 ::-webkit-scrollbar {
     width: 15px;
-    height: 15px; 
+    height: 15px;
     background-color: #000;
 }
+
 ::-webkit-scrollbar-thumb {
     border: 1px solid #000;
     background-color: #c97f42
 }
+
 ::-webkit-scrollbar-button:start:decrement,
 ::-webkit-scrollbar-button:end:increment {
     height: 15px;
     width: 15px;
     display: block;
     background-repeat: no-repeat;
-    border: 1px solid #c97f42;  
+    border: 1px solid #c97f42;
     background-color: #000;
 }
+
 ::-webkit-scrollbar-button:vertical:decrement {
     background-image: url();
 }
+
 ::-webkit-scrollbar-button:vertical:increment {
     background-image: url();
 }
+
 p {
-    margin:2.5%;
+    margin: 2.5%;
 }
+
 hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0,0,0,0.1), #c97f42, rgba(0,0,0,0.1));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), #c97f42, rgba(0, 0, 0, 0.1));
 }
+
 a {
     color: rgb(138, 43, 226);
     text-decoration: underline dashed;
     cursor: url('/Images/Cursors/LINKCONNER.CUR'), default;
 }
+
 a:hover {
     color: #FBB1C0;
 }
-#title{
-    top:3%;
-    position:absolute;
-    left:30%;
+
+#title {
+    top: 3%;
+    position: absolute;
+    left: 30%;
     text-shadow: 2px 2px white;
 }
-.container {  
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 10fr 5fr 5fr 5fr 0.1fr;
-        grid-auto-columns: 1fr;
-        gap: 10px 1%;
-        grid-auto-flow: row;
-        justify-content: center;
-        align-content: center;
-        justify-items: center;
-        align-items: center;
-        grid-template-areas:
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10fr 5fr 5fr 5fr 0.1fr;
+    grid-auto-columns: 1fr;
+    gap: 10px 1%;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
         ". header header header ."
         " profile1 main main main ."
         " profile1 main main main ."
         ". profile3 foot foot ."
         ". . . . .";
-        margin: 0 auto;
-        margin-top: 8%;
-        margin-left: 22%;
-        width:60%;
-        height: 100vh;
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-left: 22%;
+    width: 60%;
+    height: 100vh;
 }
-.header { 
-    grid-area: header; 
+
+.header {
+    grid-area: header;
     background-color: black;
-    border: #c97f42 1px solid; 
-    width:100%;
-    height:100%;
+    border: #c97f42 1px solid;
+    width: 100%;
+    height: 100%;
 }
-#header_img{
-    width:100%;
-    height:100%;
+
+#header_img {
+    width: 100%;
+    height: 100%;
     object-fit: fill;
-    background-position: 57% 50%; 
-    background-image:url(/Shrines/ShrineMedia/ConneR/Images/Header.jpg);
+    background-position: 57% 50%;
+    background-image: url(/Shrines/ShrineMedia/ConneR/Images/Header.jpg);
     background-size: 80%;
     background-repeat: no-repeat;
 }
-.profile1 { 
-    grid-area: profile1; 
-    background-color: rgba(0,0,0,0.7);
-    height:100%;
-    width:100%;
-    border: #c97f42 1px solid; 
+
+.profile1 {
+    grid-area: profile1;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    border: #c97f42 1px solid;
 }
-.profile2 { 
-    grid-area: profile2; 
-    background-color: rgba(0,0,0,0.7);
-    height:100%;
-    width:100%;
-    border: #c97f42 1px solid; 
-    overflow:auto;
+
+.profile2 {
+    grid-area: profile2;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    border: #c97f42 1px solid;
+    overflow: auto;
 }
-.main { 
-    grid-area: main; 
-    background-color: rgba(0,0,0,0.7);
-    height:100%;
-    width:100%;
-    border: #c97f42 1px solid; 
-    overflow:auto;
+
+.main {
+    grid-area: main;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    border: #c97f42 1px solid;
+    overflow: auto;
 }
-.profile3 { 
-    grid-area: profile3; 
-    background-color: rgba(0,0,0,0.7);
-    height:100%;
-    width:100%;
-    border: #c97f42 1px solid; 
-    overflow:auto;
+
+.profile3 {
+    grid-area: profile3;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    border: #c97f42 1px solid;
+    overflow: auto;
 }
+
 .center-middle {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
-.foot { 
-    grid-area: foot; 
-    background-color: rgba(0,0,0,0.7);
-    height:100%;
-    width:100%;
-    border: #c97f42 1px solid; 
-    overflow:auto;
+
+.foot {
+    grid-area: foot;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    border: #c97f42 1px solid;
+    overflow: auto;
 }
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-@media only screen and (max-width: 640px) {  .container{
-    display: flex; 
-    flex-flow: column; 
-    position:relative;
-    width:95%;
-    right:19%;
-    margin-top:3%;
-    font-size:2vh;
-  }
-  .header{
-    height:150%;
-    order: 1;
-  }
-  .main{
-    order:2;
-    height:250%;
-  }
-  .profile1{
-    display:none
-  }  .profile2{
-    height:25%;
-    order:3;
-    height:150%;
-  }
-  body{
-    font-size: 3vh;
-  }
-  ul{
-    margin-left:28%;
-  }
-  .profile3{
-    order:4;
-  }
-  .foot{
-    order:5;
-  }
-  #title{
-    display:none;
-  }
+
+@media only screen and (max-width: 640px) {
+    .container {
+        display: flex;
+        flex-flow: column;
+        position: relative;
+        width: 95%;
+        right: 19%;
+        margin-top: 3%;
+        font-size: 2vh;
+    }
+
+    .header {
+        height: 150%;
+        order: 1;
+    }
+
+    .main {
+        order: 2;
+        height: 250%;
+    }
+
+    .profile1 {
+        display: none
+    }
+
+    .profile2 {
+        height: 25%;
+        order: 3;
+        height: 150%;
+    }
+
+    body {
+        font-size: 3vh;
+    }
+
+    ul {
+        margin-left: 28%;
+    }
+
+    .profile3 {
+        order: 4;
+    }
+
+    .foot {
+        order: 5;
+    }
+
+    #title {
+        display: none;
+    }
 }
