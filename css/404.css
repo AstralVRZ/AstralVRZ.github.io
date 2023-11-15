@@ -74,6 +74,10 @@ blink {
 	color: #FF0000;
 }
 
+li{
+	color: blue;
+}
+
 red{
 	color: #FF0000;
 }
@@ -86,8 +90,12 @@ black{
 	color: black;
 }
 
-purple{
+bluevoitlet{
 	color: blueviolet;
+}
+
+purple{
+	color: purple;
 }
 
 blue{
