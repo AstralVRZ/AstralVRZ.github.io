@@ -7,11 +7,15 @@
     src: url(/Fonts/NoitaGlyphScaled.ttf);
 }
 
+.va {
+    vertical-align: middle;
+}
+
 body{
     background-image: url(/Shrines/ShrineMedia/Noita/Images/Main-background.jpeg);
     background-size: 100%;
     font-family: NoitaPixel;
-    font-size: 3vh;
+    font-size: 2.5vh;
     color: #ffdc8a;
 }
 
@@ -19,9 +23,15 @@ Glyph{
     font-family: NoitaGlyph;
 }
 
+.ma{
+   padding-left:15%;
+   /* margin: 2.5%; */
+}
+
 .headers{
-    color: #ffdc8a;
+    color: #ffdcff;
     font-weight: bold;
+    margin: 2.5%;
 }
 
 ::-webkit-scrollbar{
@@ -94,8 +104,8 @@ a:hover{
     align-items: center;
     grid-template-areas:
         " . . . . ."
-        " profile1 main main main ."
-        " profile1 main main main ."
+        " profile1 main main main profile2"
+        " profile1 main main main profile2"
         ". profile3 foot foot ."
         ". . . . .";
     margin: 0 auto;
@@ -111,6 +121,7 @@ a:hover{
     height: 100%;
     width: 100%;
     border: #ffdc8a 1px solid;
+    z-index: -1;
 }
 
 .profile2{
@@ -183,7 +194,7 @@ a:hover{
     }
 
     .profile1{
-        display: none
+        display: none;
     }
 
     .profile2{

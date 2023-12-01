@@ -199,13 +199,12 @@ a:hover {
     }
 
     .profile1 {
-        display: none
+        height: 250%;
+        order: 3;
     }
 
     .profile2 {
-        height: 25%;
-        order: 3;
-        height: 150%;
+        display: none;
     }
 
     body {
