@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Agency FB;
+  src: url(/Fonts/Agency_FB.ttf);
+}
 body {
   color: blueviolet;
   font-family: Agency FB;
