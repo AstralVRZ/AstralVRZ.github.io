@@ -76,8 +76,8 @@ a:hover {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 10fr 5fr 0.1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 5fr 10fr;
     grid-auto-columns: 1fr;
     gap: 10px 1%;
     grid-auto-flow: row;
@@ -87,7 +87,7 @@ a:hover {
     align-items: center;
     grid-template-areas:
         "foot header header header ."
-        "main main main main main";
+        "foot main main main main";
     margin: 0 auto;
     margin-top: 8%;
     margin-left: 22%;
@@ -117,7 +117,7 @@ a:hover {
     height: 100%;
     width: 100%;
     border: blueviolet 1px solid;
-    overflow: auto;
+    overflow:auto;
 }
 
 .center-middle {
