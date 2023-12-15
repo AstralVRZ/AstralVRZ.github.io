@@ -83,7 +83,7 @@ a:hover {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 10fr 8fr 5fr 5fr 5fr 1fr 5fr 5fr 5fr 5fr 0.1fr;
+  grid-template-rows: 10fr 8fr 5fr 11fr 5fr 5fr 5fr 5fr;
   grid-auto-columns: 1fr;
   gap: 10px 1%;
   grid-auto-flow: row;
@@ -96,13 +96,10 @@ a:hover {
     "profile2 main main main profile7"
     "profile3 main main main profile5"
     "profile6  foot foot foot profile5"
-    "profile6  foot foot foot profile5"
-    "profile6  foot foot foot profile5"
     "profile4 profile4 profile4 profile4 profile4"
     "profile4 profile4 profile4 profile4 profile4"
     "profile4 profile4 profile4 profile4 profile4"
-    "profile4 profile4 profile4 profile4 profile4"
-    ". . . . .";
+    "profile4 profile4 profile4 profile4 profile4";
   margin: 0 auto;
   margin-top: 8%;
   margin-left: 22%;
@@ -191,7 +188,7 @@ a:hover {
   height: 100%;
   width: 100%;
   border: blueviolet 1px solid;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .profile7 {
@@ -241,6 +238,7 @@ a:hover {
 
   .profile1 {
     order: 0;
+    display: none;
   }
 
   .profile2 {
@@ -270,6 +268,7 @@ a:hover {
   }
 
   .profile5 {
+    display: none;
     order: 7;
   }
 
