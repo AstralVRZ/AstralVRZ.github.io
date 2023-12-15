@@ -57,10 +57,18 @@ function drawFood() {
 
 // Random pos food
 function generateFood() {
-    const x = Math.floor(Math.random() * gridSize) +1;
-    const y = Math.floor(Math.random() * gridSize) +1;
-    return {x,y};
-}
+    let validPosition = false;
+    let food;
+    while (!validPosition) {
+        const x = Math.floor(Math.random() * gridSize) + 1;
+        const y = Math.floor(Math.random() * gridSize) + 1;
+        validPosition = !snake.some(segment => segment.x === x && segment.y === y);
+        if (validPosition) {
+            food = {x, y};
+        }
+    }
+    return food;
+ }
 
 // Snake movement
 function move() {
@@ -178,9 +186,11 @@ function increaseSpeed() {
 function checkCollision(){
     const head = snake[0];
 
+    // border collision 
     if (head.x < 1 || head.x > gridSize || head.y < 1 || head.y > gridSize) {
         resetGame();
     }
+    // self collision
     for (let i = 1; i < snake.length; i++) {
         if (head.x === snake[i].x && head.y === snake[i].y) {
             resetGame();
