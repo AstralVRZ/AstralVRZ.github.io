@@ -29,7 +29,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  border: 1px solid #000;
+  border: 2px solid #000;
   background-color: blueviolet
 }
 
@@ -39,7 +39,7 @@ body {
   width: 15px;
   display: block;
   background-repeat: no-repeat;
-  border: 1px solid blueviolet;
+  border: 2px solid blueviolet;
   background-color: #000;
 }
 
@@ -114,7 +114,9 @@ a:hover {
 .header {
   grid-area: header;
   background-color: aqua;
-  border: blueviolet 1px solid;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
   width: 100%;
   height: 100%;
 }
@@ -125,6 +127,7 @@ a:hover {
   object-fit: fill;
   background-position: 57% 50%;
   background-image: url('/Images/Background/purpskybg.jpg');
+  border-radius: 8px;
 }
 
 .profile1 {
@@ -132,7 +135,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 1px solid;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
 }
 
 .profile2 {
@@ -140,7 +145,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 1px solid;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
   overflow: auto;
 }
 
@@ -149,7 +156,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 1px solid;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
   overflow: auto;
 }
 
@@ -158,7 +167,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 1px solid;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
   overflow: auto;
 }
 
@@ -173,7 +184,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 1px solid;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
   overflow: auto;
 }
 
@@ -182,7 +195,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 1px solid;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
   overflow: auto;
 }
 
@@ -191,7 +206,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 1px solid;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
   overflow: hidden;
 }
 
@@ -200,7 +217,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 1px solid;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
   overflow: auto;
 }
 
@@ -209,7 +228,9 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 1px solid;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
   overflow: auto;
 }
 
