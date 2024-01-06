@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Agency FB;
+    src: url(/Fonts/Agency_FB.ttf);
+}
+
 body {
     color: #8a2be2;
     font-family: Agency FB;
@@ -13,7 +18,9 @@ body {
 }
 
 .image {
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
+    scrollbar-width: none;
 }
 
 .headers {
@@ -111,7 +118,9 @@ a:hover {
 .header {
     grid-area: header;
     background-color: aqua;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
+    scrollbar-width: none;
     width: 100%;
     height: 100%;
 }
@@ -129,7 +138,9 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
+    scrollbar-width: none;
     overflow: auto;
 }
 
@@ -144,7 +155,9 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
+    scrollbar-width: none;
     overflow: auto;
 }
 
@@ -153,7 +166,9 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
+    scrollbar-width: none;
 }
 
 .center {

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Agency FB;
+    src: url(/Fonts/Agency_FB.ttf);
+}
+
 body {
     color: blueviolet;
     font-family: Agency FB;
@@ -86,7 +91,7 @@ a:hover {
     justify-items: center;
     align-items: center;
     grid-template-areas:
-        "foot header header header ."
+        "foot header header header header"
         "foot main main main main";
     margin: 0 auto;
     margin-top: 8%;
@@ -98,7 +103,9 @@ a:hover {
 .header {
     grid-area: header;
     background-color: aqua;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
+    scrollbar-width: none;
     width: 100%;
     height: 100%;
 }
@@ -109,6 +116,7 @@ a:hover {
     object-fit: fill;
     background-position: 57% 50%;
     background-image: url('/Images/Background/purpskybg.jpg');
+    border-radius: 8px;
 }
 
 .main {
@@ -116,7 +124,9 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
+    scrollbar-width: none;
     overflow:auto;
 }
 
@@ -131,7 +141,9 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
+    scrollbar-width: none;
     overflow: auto;
 }
 
