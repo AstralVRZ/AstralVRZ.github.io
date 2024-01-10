@@ -235,6 +235,6 @@ function updateHighScore() {
 
 document.addEventListener('keydown', handleKeyPress);
 if (/Android|iPhone|iPad|Opera Mini/i.test(navigator.userAgent)) {
-    window.alert("Sorry this page is not available for mobile devices, I will take you back to the home page! :3")
-    location.href = '/';
+    window.alert("Sorry this page is not available for mobile devices, I will take you back to the previous page! :3")
+    history.back()
 }
