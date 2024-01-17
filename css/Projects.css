@@ -290,13 +290,12 @@ a:hover {
     }
 
     .header {
-        height: 150%;
+        height: 45%;
         order: 1;
     }
 
     .main {
         order: 2;
-        height: 250%;
     }
 
     .profile1 {
@@ -321,8 +320,40 @@ a:hover {
         order: 4;
     }
 
-    .foot {
+    .profile4 {
+        display: none;
+    }
+
+    .profile5 {
         order: 5;
+    }
+
+    .profile6 {
+        display: none;
+    }
+
+    .profile7 {
+        display: none;
+    }
+
+    .profile8 {
+        order: 6;
+    }
+
+    .profile9 {
+        order: 7;
+    }
+
+    .profile10 {
+        order: 8;
+    }
+
+    .profile11 {
+        display: none;
+    }
+
+    .foot {
+        order: 9;
     }
 
     #title {
