@@ -100,7 +100,7 @@ a:hover {
     "profile2 main main main profile7"
     "profile3 main main main profile5"
     "profile6  foot foot foot profile5"
-    ". foot foot foot profile5"
+    "profile8 foot foot foot profile5"
     "profile4 profile4 profile4 profile4 profile4"
     "profile4 profile4 profile4 profile4 profile4"
     "profile4 profile4 profile4 profile4 profile4"
@@ -215,6 +215,17 @@ a:hover {
 
 .profile7 {
   grid-area: profile7;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
+  overflow: auto;
+}
+
+.profile8 {
+  grid-area: profile8;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
