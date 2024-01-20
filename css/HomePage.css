@@ -2,6 +2,12 @@
   font-family: Agency FB;
   src: url(/Fonts/Agency_FB.ttf);
 }
+
+@font-face {
+  font-family: Glyphs;
+  src: url(/Fonts/NoitaGlyphScaled.ttf);
+}
+
 body {
   color: blueviolet;
   font-family: Agency FB;
@@ -100,7 +106,7 @@ a:hover {
     "profile2 main main main profile7"
     "profile3 main main main profile5"
     "profile6  foot foot foot profile5"
-    "profile8 foot foot foot profile5"
+    "profile8 foot foot foot profile9"
     "profile4 profile4 profile4 profile4 profile4"
     "profile4 profile4 profile4 profile4 profile4"
     "profile4 profile4 profile4 profile4 profile4"
@@ -235,6 +241,21 @@ a:hover {
   overflow: auto;
 }
 
+.profile9 {
+  grid-area: profile9;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
+  overflow: auto;
+  font-family: Glyphs;
+  position: relative;
+  color:#fff;
+  padding: 3px;
+}
+
 .foot {
   grid-area: foot;
   background-color: rgba(0, 0, 0, 0.7);
@@ -261,6 +282,8 @@ a:hover {
     right: 19%;
     margin-top: 3%;
     font-size: 2vh;
+    margin-left: 22%;
+    height: 150vh;
   }
 
   .header {
@@ -315,6 +338,14 @@ a:hover {
 
   .profile7 {
     order: 9;
+  }
+
+  .profile8 {
+    order: 10;
+  }
+
+  .profile9 {
+    order: 11;
   }
 
   #title {
