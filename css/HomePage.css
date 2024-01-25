@@ -18,6 +18,7 @@ body {
 .headers {
   color: pink;
   font-weight: bold;
+  text-align: center;
 }
 
 .va {
