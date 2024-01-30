@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+      :root {
+          --red: #ffcaca;
+          --orange: #ffedc1;
+          --yellow: #feffb8;
+          --green: #c4ffcb;
+          --blue: #add8ff;
+          --purple: #ccafe9;
+
+          --darkgreen: #3E885B;
+          --darkblue: #7fb4f5;
+
+
+          --background: #454545;
+
+
+          --rainbowright: linear-gradient(to right, var(--red) 0%, var(--orange) 20%, var(--yellow) 40%, var(--green) 60%, var(--blue) 80%,  var(--purple) 100%);
+      }
+
+      * {
+        font-family: Merriweather, Georgia, serif;
+        color: var(--purple);
+      }
+
+      html {
+        background-color: var(--background);
+      }
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+
+      body {
+        display: flex;
+
+        padding: 0.5em;
+
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+      }
+
+      a {
+        display: inline-block;
+        color: inherit;
+        position: relative;
+        text-decoration: none;
+        transition: linear 0.2s;
+        color: var(--purple);
+      }
+
+      a:before {
+        background: var(--rainbowright);
+        content: '';
+        height: 2px;
+        position: absolute;
+        bottom: -1.5px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: width 0.2s ease-in-out;
+      }
+
+      a:hover{
+        color: var(--white);
+      }
+
+      a:hover:before{
+        width: 0;
+      }
+
+      #left { text-align: left; }
+      #mid { text-align: center; }
+      #right { text-align: right; }
+
+      #left, #right {
+        flex-grow: 1;
+        flex-basis: 0;
+      }
+
+      #header span{
+        animation-delay: var(--n);
+        animation: wave 1.5s linear var(--n) infinite forwards running, rainbow 3s linear var(--n) infinite forwards running;
+        position: relative;
+      }
+
+      @media screen and (prefers-reduced-motion: reduce)
+      {
+        #header span {
+          animation: none;
+        }
+      }
+
+      @keyframes wave{
+        0%    {top: 0px;}
+        25%   {top: -1px;}
+        50%   {top: 0px;}
+        75%  {top: 1px;}
+        100% {top: 0px;}
+      }
+
+      @keyframes rainbow{
+        0% {color: var(--red);}
+        17% {color: var(--orange);}
+        33% {color: var(--yellow);}
+        50% {color: var(--green);}
+        67% {color: var(--blue);}
+        83% {color: var(--purple);}
+        100% {color: var(--red);}
+      }
