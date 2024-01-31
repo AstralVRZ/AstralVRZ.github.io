@@ -1,3 +1,4 @@
+window.alert("Please ise fullscreen for this page for the best experience!\n(idk how to fix this page :3)")
 // define html elements
 const board = document.getElementById('game-board');
 const instructionText = document.getElementById('instruction-text');
