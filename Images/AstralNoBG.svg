@@ -1,0 +1,111 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+
+    <!-- Right I  -->
+    <line 
+        x1="650" y1="200"
+        x2="650" y2="800"
+        stroke="#8a2be2"
+        stroke-width="10"
+    />
+    <line 
+        x1="700" y1="200"
+        x2="600" y2="200"
+        stroke="#8a2be2"
+        stroke-linecap="round"
+        stroke-width="10"
+    />
+    <line 
+        x1="600" y1="800"
+        x2="700" y2="800"
+        stroke="#8a2be2"
+        stroke-linecap="round"
+        stroke-width="10"
+    />
+
+    <!-- Left I -->
+    <line 
+        x1="350" y1="200"
+        x2="350" y2="800"
+        stroke="#8a2be2"
+        stroke-width="10"
+    />
+    <line 
+        x1="300" y1="200"
+        x2="400" y2="200"
+        stroke="#8a2be2"
+        stroke-linecap="round"
+        stroke-width="10"
+    />
+    <line 
+        x1="400" y1="800"
+        x2="300" y2="800"
+        stroke="#8a2be2"
+        stroke-linecap="round"
+        stroke-width="10"
+    />
+
+    <!-- Upsidedown V -->
+    <line 
+        x1="200" y1="800"
+        x2="500" y2="200"
+        stroke="#fff"
+        stroke-width="10"
+    />
+    <line 
+        x1="800" y1="800"
+        x2="500" y2="200"
+        stroke="#fff"
+        stroke-width="10"
+    />
+    <line 
+        x1="200" y1="800"
+        x2="150" y2="800"
+        stroke="#fff"
+        stroke-linecap="round"
+        stroke-width="10"
+    />
+    <line 
+        x1="800" y1="800"
+        x2="850" y2="800"
+        stroke="#fff"
+        stroke-linecap="round"
+        stroke-width="10"
+    />
+
+    <!-- Normal V -->
+    <line 
+        x1="200" y1="200"
+        x2="500" y2="800"
+        stroke="#fff"
+        stroke-width="10"
+    />
+    <line 
+        x1="800" y1="200"
+        x2="500" y2="800"
+        stroke="#fff"
+        stroke-width="10"
+    />
+    <line 
+        x1="800" y1="200"
+        x2="850" y2="200"
+        stroke="#fff"
+        stroke-width="10"
+        stroke-linecap="round"
+    />
+    <line 
+        x1="200" y1="200"
+        x2="150" y2="200"
+        stroke="#fff"
+        stroke-width="10"
+        stroke-linecap="round"
+    />
+
+    <!-- Circle  -->
+    <circle
+        cx="500" cy="500"
+        r="300"
+        stroke="blueviolet"
+        stroke-width="10"
+        fill-opacity="0"
+     />
+</svg>
