@@ -10,11 +10,6 @@ body {
     background-image: url(/Images/Background/spacebackground.gif);
 }
 
-.headers {
-    color: pink;
-    font-weight: bold;
-}
-
 .va {
     vertical-align: middle;
 }

@@ -15,13 +15,6 @@ body {
   background-image: url(/Images/Background/spacebackground.gif);
 }
 
-.headers {
-  color: pink;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 0.9px 0.9px #fff;
-}
-
 .va {
   vertical-align: middle;
 }

@@ -23,11 +23,6 @@ body {
     scrollbar-width: none;
 }
 
-.headers {
-    color: #ffc0cb;
-    font-weight: bold;
-}
-
 .va {
     vertical-align: middle;
 }

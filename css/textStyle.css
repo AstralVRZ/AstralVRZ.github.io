@@ -114,3 +114,14 @@ sup {
     transform: translateY(-10px);
   }
 }
+
+.headers {
+  color: pink;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.9px 0.9px #fff;
+}
+
+.center {
+  text-align: center;
+}
