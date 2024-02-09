@@ -222,12 +222,6 @@ body {
     overflow: auto;
 }
 
-.center-middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .foot {
     grid-area: foot;
     background-color: rgba(0, 0, 0, 0.7);

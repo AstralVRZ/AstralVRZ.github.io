@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Agency FB;
+    src: url(/Fonts/Agency_FB.ttf);
+}
+
 body {
     color: blueviolet;
     font-family: Agency FB;
@@ -68,7 +73,8 @@ body {
 .header {
     grid-area: header;
     background-color: aqua;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
     width: 100%;
     height: 100%;
 }
@@ -79,6 +85,7 @@ body {
     object-fit: fill;
     background-position: 57% 50%;
     background-image: url('/Images/Background/purpskybg.jpg');
+    border-radius: 5px;
 }
 
 .profile1 {
@@ -86,7 +93,8 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
 }
 
 .profile2 {
@@ -94,7 +102,8 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
     overflow: auto;
 }
 
@@ -103,7 +112,8 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
     overflow: auto;
 }
 
@@ -112,7 +122,8 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
     overflow: auto;
 }
 
@@ -127,14 +138,9 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 1px solid;
+    border: blueviolet 2px solid;
+    border-radius: 10px;
     overflow: auto;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 @media only screen and (max-width: 640px) {
