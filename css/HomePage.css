@@ -147,12 +147,6 @@ body {
   overflow: auto;
 }
 
-.center-middle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .profile4 {
   grid-area: profile4;
   background-color: rgba(0, 0, 0, 0.7);

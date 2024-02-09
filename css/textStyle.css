@@ -153,3 +153,9 @@ a:hover {
 .il {
   display: inline;
 }
+
+.center-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

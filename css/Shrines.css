@@ -142,12 +142,6 @@ body {
     overflow: auto;
 }
 
-.center-middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .center {
     display: block;
     margin-left: auto;

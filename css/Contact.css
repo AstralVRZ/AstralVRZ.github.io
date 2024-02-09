@@ -97,11 +97,7 @@ body {
     overflow:auto;
 }
 
-.center-middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .foot {
     grid-area: foot;

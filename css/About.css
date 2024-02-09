@@ -132,12 +132,6 @@ body {
     scrollbar-width: none;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 @media only screen and (max-width: 640px) {
     .container {
         display: flex;
