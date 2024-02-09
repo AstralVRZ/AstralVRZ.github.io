@@ -10,35 +10,6 @@ body {
     background-image: url(/Images/Background/spacebackground.gif);
 }
 
-::-webkit-scrollbar {
-    width: 15px;
-    height: 15px;
-    background-color: #000;
-}
-
-::-webkit-scrollbar-thumb {
-    border: 1px solid #000;
-    background-color: blueviolet
-}
-
-::-webkit-scrollbar-button:start:decrement,
-::-webkit-scrollbar-button:end:increment {
-    height: 15px;
-    width: 15px;
-    display: block;
-    background-repeat: no-repeat;
-    border: 1px solid blueviolet;
-    background-color: #000;
-}
-
-::-webkit-scrollbar-button:vertical:decrement {
-    background-image: url();
-}
-
-::-webkit-scrollbar-button:vertical:increment {
-    background-image: url();
-}
-
 #title {
     top: 3%;
     position: absolute;
@@ -96,8 +67,6 @@ body {
     scrollbar-width: none;
     overflow:auto;
 }
-
-
 
 .foot {
     grid-area: foot;
