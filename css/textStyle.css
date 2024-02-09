@@ -145,3 +145,11 @@ a {
 a:hover {
   color: #FBB1C0;
 }
+
+.va {
+  vertical-align: middle;
+}
+
+.il {
+  display: inline;
+}

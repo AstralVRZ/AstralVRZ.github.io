@@ -10,14 +10,6 @@ body {
     background-image: url(/Images/Background/spacebackground.gif);
 }
 
-.va {
-    vertical-align: middle;
-}
-
-.il {
-    display: inline;
-}
-
 ::-webkit-scrollbar {
     width: 15px;
     height: 15px;
