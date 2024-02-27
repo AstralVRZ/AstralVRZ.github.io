@@ -83,6 +83,7 @@ body {
   border: blueviolet 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
+  overflow: scroll;
 }
 
 .profile2 {
@@ -148,7 +149,7 @@ body {
   border: blueviolet 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .profile7 {
