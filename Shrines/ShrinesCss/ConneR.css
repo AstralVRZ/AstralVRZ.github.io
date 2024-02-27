@@ -37,6 +37,7 @@ audio::-webkit-media-controls-timeline {
 .headers {
     color: black;
     font-weight: bold;
+    text-shadow: none;
 }
 
 .va {
