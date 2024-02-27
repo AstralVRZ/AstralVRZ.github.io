@@ -1,5 +1,5 @@
 if (/Android|iPhone|iPad|Opera Mini/i.test(navigator.userAgent)) {
-    window.alert("You are on mobile so I hid the webamp :3")
+    console.log("You are on mobile so I hid the webamp :3")
 } else {
     new Webamp({
         initialTracks: [
