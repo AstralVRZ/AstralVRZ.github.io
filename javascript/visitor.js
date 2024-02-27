@@ -1,7 +1,12 @@
 let UA = navigator.userAgent;
 let L = navigator.language;
 let OS = "Unknown OS, maybe a niche Linux distro or a webcrawler.";
+let SRC = ""
+let LNK = ""
 const WHU = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIxMTY1NjUyODczNDcyNDE1Ni8tcDNmSldQUGxLSHZvaFM0U3ZKTmlzZEtkUjd0aVpMNm9CcVBmeW1CWVdXNk5RR2IwWWFOM2lCOG9TQWtZc2N0SmlJTw==";
+LNK = window.location.href
+SLNK = LNK.split("#")
+
 if (/Windows|Win64|Win32/i.test(UA)) {
   OS = "Windows";
 } else if (/Macintosh|MacIntel|MacPPC|Mac68K/i.test(UA)) {
@@ -24,7 +29,7 @@ if (/AstralVRZ/i.test(UA)) {
     let data = {
         "embeds": [{
             "title": "A new visitor has Visited the AstralPlane!",
-            "description": `User Agent: ${UA}\nLanguage: ${L}\nOperating System: ${OS}`,
+            "description": `User Agent: ${UA}\nLanguage: ${L}\nOperating System: ${OS}\nVisit Source: ${SLNK[1]}`,
             "color":   9055202
         }]
       };
