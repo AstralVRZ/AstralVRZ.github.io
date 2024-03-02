@@ -1,0 +1,45 @@
+.TOS .name {
+    color: blueviolet;
+    font-weight: bold;
+    background-image: url(/Images/misc/text_glint.png);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animation 3s linear alternate infinite;
+}
+@keyframes animation {to {background-position: 20vh;}}
+
+.glow {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;}
+    to {text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;}
+}
+
+@font-face {
+    font-family: Nosifer;
+    src: url(Nosifer-Regular.ttf);
+}
+.blood {
+    font-family: nosifer;
+    color: #FF0000;
+    transition: all 5s ease;
+    -webkit-text-stroke: 0.1px #FF0000;
+    font-weight: bold;
+    text-shadow:
+    1px 1px 1px #300000,
+    1px 2px 1px #4A0000,
+    1px 3px 1px #640000,
+    1px 4px 1px #7E0000,
+    1px 5px 1px #980000,
+    1px 6px 1px #B10000,
+    1px 7px 1px #CB0000,
+    1px 8px 1px #E50000,
+    1px 9px 1px #FF0000;
+} 

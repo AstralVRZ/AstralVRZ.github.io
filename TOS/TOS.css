@@ -1,0 +1,59 @@
+body {
+    background-image: url(OrionNebula.jpg);
+    background-size: 100%;
+}
+
+.head {
+    color: rgba(0, 0, 0, 0);
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.460);
+    border-radius: 5px;
+}
+
+hr {
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.460);
+    border-radius: 5px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.130);
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    overflow: scroll;
+}
+
+.TOS{
+    margin: 10px;
+}
+
+.TOS h1 {
+    text-align: center;
+}
+
+.TOS h2 {
+    text-align: center;
+}
+
+.TOS sup {
+    color: red;
+}
+
+.darkGlow {
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    -webkit-animation: darkGlow 1s ease-in-out infinite alternate;
+    -moz-animation: darkGlow 1s ease-in-out infinite alternate;
+    animation: darkGlow 1s ease-in-out infinite alternate;
+}
+@keyframes darkGlow {
+    from {text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #33081e, 0 0 40px #33081e, 0 0 50px #33081e, 0 0 60px #33081e, 0 0 70px #33081e;}
+    to {text-shadow: 0 0 20px #000, 0 0 30px #2b1922, 0 0 40px #2b1922, 0 0 50px #2b1922, 0 0 60px #2b1922, 0 0 70px #2b1922, 0 0 80px #2b1922;}
+}
