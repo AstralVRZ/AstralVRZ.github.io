@@ -1,14 +1,27 @@
+if (localStorage.getItem("Visits")== undefined ){
+  localStorage.setItem("Visits","1")
+} else {
+  let Visits= Number(localStorage.getItem("Visits"))
+  let visitsNew = Visits + 1
+  localStorage.setItem("Visits",visitsNew)
+}
+if (localStorage.getItem("ID")== undefined ){
+  let ID = crypto.randomUUID();
+  localStorage.setItem("ID",ID)
+}
 let UA = navigator.userAgent;
 let L = navigator.language;
 let OS = "Unknown OS, maybe a niche Linux distro or a webcrawler.";
-
-const WHU = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIxMTY1NjUyODczNDcyNDE1Ni8tcDNmSldQUGxLSHZvaFM0U3ZKTmlzZEtkUjd0aVpMNm9CcVBmeW1CWVdXNk5RR2IwWWFOM2lCOG9TQWtZc2N0SmlJTw==";
+let V = localStorage.getItem("Visits")
+let ID = localStorage.getItem("ID")
 LNK = window.location.href
 SLNK = LNK.split("#")
 SRC = SLNK[1]
 if (SLNK[1] == undefined) {
   SRC = "Direct link"
 }
+
+const WHU = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIxMTY1NjUyODczNDcyNDE1Ni8tcDNmSldQUGxLSHZvaFM0U3ZKTmlzZEtkUjd0aVpMNm9CcVBmeW1CWVdXNk5RR2IwWWFOM2lCOG9TQWtZc2N0SmlJTw==";
 
 if (/Windows|Win64|Win32/i.test(UA)) {
   OS = "Windows";
@@ -32,7 +45,7 @@ if (/AstralVRZ/i.test(UA)) {
     let data = {
         "embeds": [{
             "title": "A new visitor has Visited the AstralPlane!",
-            "description": `User Agent: ${UA}\nLanguage: ${L}\nOperating System: ${OS}\nVisit Source: ${SRC}`,
+            "description": `User Agent: ${UA}\nLanguage: ${L}\nOperating System: ${OS}\nVisit Source: ${SRC}\nTotal visits: ${V}\nID: ${ID}`,
             "color":   9055202
         }]
       };
@@ -46,4 +59,4 @@ if (/AstralVRZ/i.test(UA)) {
       })
       .then(response => console.log('Success:', response))
       .catch(error => console.error('Error:', error));
-}
+};
