@@ -1,2 +1,3 @@
 User-agent: GPTBot
 Disallow: /
+Sitemap: https://astralvrz.github.io/sitemap.xml
