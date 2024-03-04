@@ -229,6 +229,10 @@ body {
 }
 
 @media only screen and (max-width: 640px) {
+  .disclaimer {
+    width: auto;
+    left: 0%;
+  }
   .container {
     display: flex;
     flex-flow: column;
