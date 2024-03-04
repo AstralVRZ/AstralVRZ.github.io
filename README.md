@@ -6,7 +6,6 @@ Website where all my projects and some info about me are displayed.
 - [ ] Finish about me page.
 - [ ] Finish Conner shrine page.
 - [ ] Add photo of my pin collection to about me.
-- [ ] Improve visitor.js
 
 
 # Done
@@ -15,3 +14,4 @@ Website where all my projects and some info about me are displayed.
 - [x] Pick out a good font, Because I don't really like this one.
 - [x] Do some cool css styling.
 - [x] Add Github link to my social links.
+- [x] Improve visitor.js
