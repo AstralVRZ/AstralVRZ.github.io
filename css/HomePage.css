@@ -285,37 +285,41 @@ body {
     margin-left: 28%;
   }
 
-  .profile3 {
+  .nekoWeb {
     order: 4;
   }
 
-  .foot {
+  .profile3 {
     order: 5;
   }
 
-  .profile4 {
+  .foot {
     order: 6;
+  }
+
+  .profile4 {
+    order: 7;
   }
 
   .profile5 {
     display: none;
-    order: 7;
-  }
-
-  .profile6 {
     order: 8;
   }
 
-  .profile7 {
+  .profile6 {
     order: 9;
   }
 
-  .profile8 {
+  .profile7 {
     order: 10;
   }
 
-  .profile9 {
+  .profile8 {
     order: 11;
+  }
+
+  .profile9 {
+    order: 12;
   }
 
   #title {
