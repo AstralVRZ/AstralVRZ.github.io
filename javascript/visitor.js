@@ -39,7 +39,7 @@ if (/Windows|Win64|Win32/i.test(UA)) {
   OS = "Unknown OS, maybe a niche Linux distro or a webcrawler.";
 }
 
-if (/AstralVRZ/i.test(UA)) {
+if (/AstralVRZ/i.test(UA) || localStorage.getItem("Bypass") == 1) {
     console.log("Welcome One With Many Names, no embed has been sent.");
 } else {
     let data = {
