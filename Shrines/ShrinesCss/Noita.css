@@ -103,9 +103,9 @@ a:hover{
     justify-items: center;
     align-items: center;
     grid-template-areas:
-        " . . . . ."
-        " profile1 main main main profile2"
-        " profile1 main main main profile2"
+        " profile1 profile1 profile1 profile1 profile1"
+        " . main main main profile2"
+        " . main main main profile2"
         ". profile3 foot foot ."
         ". . . . .";
     margin: 0 auto;
@@ -122,8 +122,8 @@ a:hover{
     width: 100%;
     border: #ffdc8a 1px solid;
     z-index: -1;
+    display: grid;
 }
-
 .profile2{
     grid-area: profile2;
     background-color: rgba(0, 0, 0, 0.7);
