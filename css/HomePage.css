@@ -53,7 +53,19 @@ body {
   font-weight: bold;
   font-family: Agency FB;
   background-color: blueviolet;
-  
+}
+
+.cont88x31 {
+  display: flex;
+}
+
+.column50 {
+	flex: 50%;
+  text-align: center;
+}
+
+.column50:nth-of-type(even) {
+	text-align: center;
 }
 
 .container {
@@ -166,7 +178,7 @@ body {
   border: blueviolet 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
-  overflow: auto;
+  overflow: show;
 }
 
 .profile5 {
