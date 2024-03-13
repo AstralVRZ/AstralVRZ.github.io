@@ -103,10 +103,10 @@ a:hover{
     justify-items: center;
     align-items: center;
     grid-template-areas:
-        " profile1 profile1 profile1 profile1 profile1"
-        " . main main main profile2"
-        " . main main main profile2"
-        ". profile3 foot foot ."
+        " p1 p1 p1 p1 p1"
+        " . main main main p2"
+        " . main main main p2"
+        ". p3 foot foot ."
         ". . . . .";
     margin: 0 auto;
     margin-top: 8%;
@@ -115,8 +115,8 @@ a:hover{
     height: 100vh;
 }
 
-.profile1{
-    grid-area: profile1;
+.p1{
+    grid-area: p1;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -124,8 +124,8 @@ a:hover{
     z-index: -1;
     display: grid;
 }
-.profile2{
-    grid-area: profile2;
+.p2{
+    grid-area: p2;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -142,8 +142,8 @@ a:hover{
     overflow: auto;
 }
 
-.profile3{
-    grid-area: profile3;
+.p3{
+    grid-area: p3;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -193,11 +193,11 @@ a:hover{
         height: 250%;
     }
 
-    .profile1{
+    .p1{
         display: none;
     }
 
-    .profile2{
+    .p2{
         height: 25%;
         order: 3;
         height: 150%;
@@ -211,7 +211,7 @@ a:hover{
         margin-left: 28%;
     }
 
-    .profile3{
+    .p3{
         order: 4;
     }
 

@@ -36,11 +36,11 @@ img {
     grid-template-areas:
         "header header header header header"
         "main main main main foot"
-        "profile2 profile2 profile2 profile1 foot"
-        "profile4 profile3 profile3 profile3 profile6"
-        "profile7 profile5 profile5 profile5 profile5"
-        "profile8 profile8 profile8 profile9 profile9"
-        "profile11 profile10 profile10 profile10 profile10";
+        "p2 p2 p2 p1 foot"
+        "p4 p3 p3 p3 p6"
+        "p7 p5 p5 p5 p5"
+        "p8 p8 p8 p9 p9"
+        "p11 p10 p10 p10 p10";
     margin: 0 auto;
     margin-top: 8%;
     margin-left: 22%;
@@ -67,8 +67,8 @@ img {
     border-radius: 8px;
 }
 
-.profile1 {
-    grid-area: profile1;
+.p1 {
+    grid-area: p1;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -77,8 +77,8 @@ img {
     scrollbar-width: none;
 }
 
-.profile2 {
-    grid-area: profile2;
+.p2 {
+    grid-area: p2;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -99,8 +99,8 @@ img {
     overflow: auto;
 }
 
-.profile3 {
-    grid-area: profile3;
+.p3 {
+    grid-area: p3;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -110,8 +110,8 @@ img {
     overflow: auto;
 }
 
-.profile4 {
-    grid-area: profile4;
+.p4 {
+    grid-area: p4;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -121,8 +121,8 @@ img {
     overflow: auto;
 }
 
-.profile5 {
-    grid-area: profile5;
+.p5 {
+    grid-area: p5;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -132,8 +132,8 @@ img {
     overflow: auto;
 }
 
-.profile6 {
-    grid-area: profile6;
+.p6 {
+    grid-area: p6;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -143,8 +143,8 @@ img {
     overflow: auto;
 }
 
-.profile7 {
-    grid-area: profile7;
+.p7 {
+    grid-area: p7;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -154,8 +154,8 @@ img {
     overflow: auto;
 }
 
-.profile8 {
-    grid-area: profile8;
+.p8 {
+    grid-area: p8;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -165,8 +165,8 @@ img {
     overflow: auto;
 }
 
-.profile9 {
-    grid-area: profile9;
+.p9 {
+    grid-area: p9;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -176,8 +176,8 @@ img {
     overflow: auto;
 }
 
-.profile10 {
-    grid-area: profile10;
+.p10 {
+    grid-area: p10;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -187,8 +187,8 @@ img {
     overflow: auto;
 }
 
-.profile11 {
-    grid-area: profile11;
+.p11 {
+    grid-area: p11;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -235,11 +235,11 @@ img {
         order: 2;
     }
 
-    .profile1 {
+    .p1 {
         display: none
     }
 
-    .profile2 {
+    .p2 {
         height: 25%;
         order: 3;
         height: 150%;
@@ -253,39 +253,39 @@ img {
         margin-left: 28%;
     }
 
-    .profile3 {
+    .p3 {
         order: 4;
     }
 
-    .profile4 {
+    .p4 {
         display: none;
     }
 
-    .profile5 {
+    .p5 {
         order: 5;
     }
 
-    .profile6 {
+    .p6 {
         display: none;
     }
 
-    .profile7 {
+    .p7 {
         display: none;
     }
 
-    .profile8 {
+    .p8 {
         order: 6;
     }
 
-    .profile9 {
+    .p9 {
         order: 7;
     }
 
-    .profile10 {
+    .p10 {
         order: 8;
     }
 
-    .profile11 {
+    .p11 {
         display: none;
     }
 

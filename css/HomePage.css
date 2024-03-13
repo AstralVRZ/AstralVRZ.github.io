@@ -80,16 +80,16 @@ body {
   justify-items: center;
   align-items: center;
   grid-template-areas:
-    "profile2 header header header profile1"
-    "profile2 main main main profile7"
-    "nekoWeb main main main profile5"
-    "profile3 main main main profile5"
-    "profile6  foot foot foot profile5"
-    "profile8 foot foot foot profile9"
-    "profile4 profile4 profile4 profile4 profile4"
-    "profile4 profile4 profile4 profile4 profile4"
-    "profile4 profile4 profile4 profile4 profile4"
-    "profile4 profile4 profile4 profile4 profile4";
+    "p2 header header header p1"
+    "p2 main main main p7"
+    "nekoWeb main main main p5"
+    "p3 main main main p5"
+    "p6  foot foot foot p5"
+    "p8 foot foot foot p9"
+    "p4 p4 p4 p4 p4"
+    "p4 p4 p4 p4 p4"
+    "p4 p4 p4 p4 p4"
+    "p4 p4 p4 p4 p4";
   margin: 0 auto;
   margin-top: 8%;
   margin-left: auto;
@@ -126,8 +126,8 @@ body {
   overflow: scroll;
 }
 
-.profile1 {
-  grid-area: profile1;
+.p1 {
+  grid-area: p1;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -137,8 +137,8 @@ body {
   overflow: scroll;
 }
 
-.profile2 {
-  grid-area: profile2;
+.p2 {
+  grid-area: p2;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -159,8 +159,8 @@ body {
   overflow: auto;
 }
 
-.profile3 {
-  grid-area: profile3;
+.p3 {
+  grid-area: p3;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -170,8 +170,8 @@ body {
   overflow: auto;
 }
 
-.profile4 {
-  grid-area: profile4;
+.p4 {
+  grid-area: p4;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -181,8 +181,8 @@ body {
   overflow: show;
 }
 
-.profile5 {
-  grid-area: profile5;
+.p5 {
+  grid-area: p5;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -192,8 +192,8 @@ body {
   overflow: auto;
 }
 
-.profile6 {
-  grid-area: profile6;
+.p6 {
+  grid-area: p6;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -203,8 +203,8 @@ body {
   overflow: auto;
 }
 
-.profile7 {
-  grid-area: profile7;
+.p7 {
+  grid-area: p7;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -214,8 +214,8 @@ body {
   overflow: auto;
 }
 
-.profile8 {
-  grid-area: profile8;
+.p8 {
+  grid-area: p8;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -225,8 +225,8 @@ body {
   overflow: auto;
 }
 
-.profile9 {
-  grid-area: profile9;
+.p9 {
+  grid-area: p9;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -278,12 +278,12 @@ body {
     height: 250%;
   }
 
-  .profile1 {
+  .p1 {
     order: 0;
     display: none;
   }
 
-  .profile2 {
+  .p2 {
     height: 25%;
     order: 3;
     height: 150%;
@@ -301,7 +301,7 @@ body {
     order: 4;
   }
 
-  .profile3 {
+  .p3 {
     order: 5;
   }
 
@@ -309,28 +309,28 @@ body {
     order: 6;
   }
 
-  .profile4 {
+  .p4 {
     order: 7;
   }
 
-  .profile5 {
+  .p5 {
     display: none;
     order: 8;
   }
 
-  .profile6 {
+  .p6 {
     order: 9;
   }
 
-  .profile7 {
+  .p7 {
     order: 10;
   }
 
-  .profile8 {
+  .p8 {
     order: 11;
   }
 
-  .profile9 {
+  .p9 {
     order: 12;
   }
 

@@ -30,9 +30,9 @@ body {
     align-items: center;
     grid-template-areas:
         ". header header header ."
-        ". profile1 main main ."
-        ". profile2 main main ."
-        ". profile3 foot foot ."
+        ". p1 main main ."
+        ". p2 main main ."
+        ". p3 foot foot ."
         ". . . . .";
     margin: 0 auto;
     margin-top: 8%;
@@ -59,8 +59,8 @@ body {
     border-radius: 5px;
 }
 
-.profile1 {
-    grid-area: profile1;
+.p1 {
+    grid-area: p1;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -68,8 +68,8 @@ body {
     border-radius: 10px;
 }
 
-.profile2 {
-    grid-area: profile2;
+.p2 {
+    grid-area: p2;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -88,8 +88,8 @@ body {
     overflow: auto;
 }
 
-.profile3 {
-    grid-area: profile3;
+.p3 {
+    grid-area: p3;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
@@ -129,11 +129,11 @@ body {
         height: 250%;
     }
 
-    .profile1 {
+    .p1 {
         display: none
     }
 
-    .profile2 {
+    .p2 {
         height: 25%;
         order: 3;
         height: 150%;
@@ -147,7 +147,7 @@ body {
         margin-left: 28%;
     }
 
-    .profile3 {
+    .p3 {
         order: 4;
     }
 
