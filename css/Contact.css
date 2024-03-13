@@ -20,7 +20,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
-    grid-template-rows: 5fr 10fr;
+    grid-template-rows: 1fr 10fr;
     grid-auto-columns: 1fr;
     gap: 10px 1%;
     grid-auto-flow: row;
