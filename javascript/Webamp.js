@@ -9,7 +9,7 @@ if (/Android|iPhone|iPad|Opera Mini/i.test(navigator.userAgent)) {
             {metaData: {artist: "Jammin' Sam Miller", title: "Donkey Kong Country - Aquatic Ambience [Restored]",},
             url: "/Audio/AquaticAmbience.mp3",},
     
-            {metaData: {artist: "jackie extreme",title: "Bizarre Love Triangle",},
+            {metaData: {artist: "JACKIE EXTREME",title: "BIZARRE LOVE TRIANGLE",},
             url: "/Audio/BizarreLoveTriangle.mp3",},
     
             {metaData: {artist: "machine girl",title: "Glass Ocean",},
@@ -18,10 +18,10 @@ if (/Android|iPhone|iPad|Opera Mini/i.test(navigator.userAgent)) {
             {metaData: {artist: "knylon/candlelitsmiles",title: "Pride (2023 Version)",},
             url: "/Audio/Pride2023.mp3",},
             
-            {metaData: {artist: "Animadrop",title: "Into the noise",},
+            {metaData: {artist: "Animadrop",title: "Into The Noise",},
             url: "/Audio/IntoTheNoise.m4a",},
     
-            {metaData: {artist: "On Principle",title: "909girl",},
+            {metaData: {artist: "On Principle",title: "909Girl",},
             url: "/Audio/909Girl.mp3",},
         ],
         initialSkin: {url: "/Webamp/spaceskin.wsz"},
