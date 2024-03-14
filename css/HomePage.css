@@ -248,6 +248,7 @@ body {
   position: relative;
   color:#fff;
   padding: 3px;
+  font-size: 3.3vh;
 }
 
 .p10 {
@@ -282,38 +283,6 @@ body {
     width: auto;
     left: 0%;
   }
-  .container {
-    display: flex;
-    flex-flow: column;
-    position: relative;
-    width: 95%;
-    right: 19%;
-    margin-top: 3%;
-    font-size: 2vh;
-    margin-left: 22%;
-    height: 150vh;
-  }
-
-  .header {
-    height: 150%;
-    order: 1;
-  }
-
-  .main {
-    order: 2;
-    height: 250%;
-  }
-
-  .p1 {
-    order: 0;
-    display: none;
-  }
-
-  .p2 {
-    height: 25%;
-    order: 3;
-    height: 150%;
-  }
 
   body {
     font-size: 3vh;
@@ -323,20 +292,56 @@ body {
     margin-left: 28%;
   }
 
+  .container {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    width: 95%;
+    right: 19%;
+    margin-top: 3%;
+    font-size: 2vh;
+    margin-left: 22%;
+    height: 100%;
+  }
+
+  .header {
+    height: 100px;
+    order: 1;
+  }
+
+  .main {
+    order: 2;
+    height: 300px;
+  }
+
+  .p1 {
+    display: none;
+  }
+
+  .p2 {
+    order: 3;
+    height: 200px;
+  }
+
   .nekoWeb {
     order: 4;
+    height: 100px;
   }
 
   .p3 {
     order: 5;
+
   }
 
   .foot {
     order: 6;
+    height: 250px;
   }
 
   .p4 {
     order: 7;
+    overflow: scroll;
+    height: 250px;
   }
 
   .p5 {
@@ -346,18 +351,34 @@ body {
 
   .p6 {
     order: 9;
+    height: 200px;
   }
 
   .p7 {
-    order: 10;
+    display: none;
   }
 
   .p8 {
-    order: 11;
+    order: 10;
+    height: 200px;
   }
 
   .p9 {
+    order: 11;
+    font-size: 2vh;
+  }
+
+  .p10 {
+    display: none;
+  }
+
+  .lastfm {
     order: 12;
+    height: 200px;
+  }
+
+  .disc img {
+    height: 50px;
   }
 
   #title {
