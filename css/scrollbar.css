@@ -6,7 +6,7 @@
   
 ::-webkit-scrollbar-thumb {
     border: 1px solid #000;
-    background-color: blueviolet
+    background-color: #8a2be2
 }
   
 ::-webkit-scrollbar-button:start:decrement,
@@ -15,7 +15,7 @@
     width: 15px;
     display: block;
     background-repeat: no-repeat;
-    border: 1px solid blueviolet;
+    border: 1px solid #8a2be2;
     background-color: #000;
 }
   

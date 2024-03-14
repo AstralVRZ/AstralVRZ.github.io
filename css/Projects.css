@@ -4,7 +4,7 @@
 }
 
 body {
-    color: blueviolet;
+    color: #8a2be2;
     font-family: Agency FB;
     font-size: 3vh;
     background-image: url(/Images/Background/spacebackground.gif);
@@ -51,7 +51,7 @@ img {
 .header {
     grid-area: header;
     background-color: aqua;
-        border: blueviolet 2px solid;
+        border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     width: 100%;
@@ -72,7 +72,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
 }
@@ -82,7 +82,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -93,7 +93,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -104,7 +104,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -115,7 +115,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -126,7 +126,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -137,7 +137,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -148,7 +148,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -159,7 +159,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -170,7 +170,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -181,7 +181,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -192,7 +192,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;
@@ -203,7 +203,7 @@ img {
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
-    border: blueviolet 2px solid;
+    border: #8a2be2 2px solid;
     border-radius: 10px;
     scrollbar-width: none;
     overflow: auto;

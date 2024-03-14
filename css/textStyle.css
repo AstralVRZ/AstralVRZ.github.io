@@ -133,7 +133,7 @@ p {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, black, blueviolet, black);
+  background-image: linear-gradient(to right, black, #8a2be2, black);
 }
 
 a {

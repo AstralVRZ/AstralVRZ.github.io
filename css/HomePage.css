@@ -9,7 +9,7 @@
 }
 
 body {
-  color: blueviolet;
+  color: #8a2be2;
   font-family: Agency FB;
   font-size: 3vh;
   background-image: url(/Images/Background/spacebackground.gif);
@@ -52,7 +52,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   font-family: Agency FB;
-  background-color: blueviolet;
+  background-color: #8a2be2;
 }
 
 .cont88x31 {
@@ -97,7 +97,7 @@ body {
 
 .header {
   grid-area: header;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   width: 100%;
@@ -116,7 +116,7 @@ body {
 .nekoWeb {
   grid-area: nekoWeb;
   background-color: rgba(0, 0, 0, 0.7);
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   width: 100%;
@@ -127,7 +127,7 @@ body {
 .lastfm {
   grid-area: lfm;
   background-color: rgba(0, 0, 0, 0.7);
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   width: 100%;
@@ -141,7 +141,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: scroll;
@@ -152,7 +152,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: auto;
@@ -163,7 +163,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: auto;
@@ -174,7 +174,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: auto;
@@ -185,7 +185,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: show;
@@ -196,7 +196,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: auto;
@@ -207,7 +207,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: auto;
@@ -218,7 +218,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: auto;
@@ -229,7 +229,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: auto;
@@ -240,7 +240,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: auto;
@@ -257,7 +257,7 @@ body {
   background-size:cover;
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: auto;
@@ -272,7 +272,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
-  border: blueviolet 2px solid;
+  border: #8a2be2 2px solid;
   border-radius: 10px;
   scrollbar-width: none;
   overflow: auto;
