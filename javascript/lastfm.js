@@ -2,7 +2,7 @@ const K = "cfc71a327cd84200077e595e96245eaf"
 const U = "AstralArchivist"
 
 const getInfo = async () => {
-    const request = await fetch(`http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${U}&api_key=${K}&limit=1&format=json`)
+    const request = await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${U}&api_key=${K}&limit=1&format=json`)
     const json = await request.json();
     // console.log(json)
     // console.log(request)
