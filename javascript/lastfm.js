@@ -4,8 +4,6 @@ const U = "AstralArchivist"
 const getInfo = async () => {
     const request = await fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${U}&api_key=${K}&limit=1&format=json`)
     const json = await request.json();
-    // console.log(json)
-    // console.log(request)
     document.getElementById('songName').innerHTML = json.recenttracks.track[0].name;i
     document.getElementById('artistName').innerHTML = json.recenttracks.track[0].artist["#text"];
     document.getElementById('songLink').href = json.recenttracks.track[0].url
@@ -16,3 +14,10 @@ const getInfo = async () => {
     }
 }
 getInfo();
+
+(function myLoop(i) {
+  setTimeout(function() {
+    getInfo();               
+    if (--i) myLoop(i);
+  }, 30000)
+})(-1);  
