@@ -71,7 +71,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 200px 100px 120px 100px 180px 200px 400px;
+  grid-template-rows: 200px 100px 120px 100px 200px 100px 280px max-content;
   grid-auto-columns: 1fr;
   gap: 10px 1%;
   grid-auto-flow: row;
@@ -82,13 +82,11 @@ body {
   grid-template-areas:
     "p2 header header header p1"
     "p2 main main main p7"
-    "nekoWeb main main main p5"
-    "p3 main main main p5"
-    "p6  foot foot foot p5"
+    "p6 main main main p5"
+    "p6 main main main p5"
+    "lfm lfm nekoWeb p10 p5"
+    "p3  foot foot foot p5"
     "p8 foot foot foot p9"
-    "p4 p4 p4 p4 p4"
-    "p4 p4 p4 p4 p4"
-    "p4 p4 p4 p4 p4"
     "p4 p4 p4 p4 p4";
   margin: 0 auto;
   margin-top: 8%;
@@ -124,6 +122,18 @@ body {
   width: 100%;
   height: 100%;
   overflow: scroll;
+}
+
+.lastfm {
+  grid-area: lfm;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  position: relative;
 }
 
 .p1 {
@@ -228,6 +238,22 @@ body {
 .p9 {
   grid-area: p9;
   background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  border: blueviolet 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
+  overflow: auto;
+  font-family: Glyphs;
+  position: relative;
+  color:#fff;
+  padding: 3px;
+}
+
+.p10 {
+  grid-area: p10;
+  background-image: url(/Images/misc/genos.gif);
+  background-size:cover;
   height: 100%;
   width: 100%;
   border: blueviolet 2px solid;

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: font;
+    src: url(/Fonts/raster.ttf);
+}
+.contLFM {
+    font-family: font;
+    font-size: 2vh;
+    display: flex;
+  }
+  
+.songImage {
+  width: 174px;
+  height: 174px;
+  border: #fff solid 1px;
+  border-radius: 5px;
+  background-color: #EBEBEB;
+}
+
+.songImage img{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.row {
+  text-align: right;
+}
+
+.row:nth-of-type(even) {
+    text-align: left;
+}
+
+.disc {
+  position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.glow {
+  font-weight: bold;
+  color: pink;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;}
+  to {text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;}
+}
+
