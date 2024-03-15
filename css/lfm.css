@@ -32,8 +32,12 @@
 
 .disc {
   position: absolute;
-    bottom: 0;
-    right: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.disc img {
+  height: 65px;
 }
 
 .glow {
