@@ -6,7 +6,11 @@ const getInfo = async () => {
     const json = await request.json();
     document.getElementById('songName').innerHTML = json.recenttracks.track[0].name;i
     document.getElementById('artistName').innerHTML = json.recenttracks.track[0].artist["#text"];
-    document.getElementById('albumName').innerHTML = json.recenttracks.track[0].album["#text"];
+    if (json.recenttracks.track[0].album["#text"] == "" ) {
+      document.getElementById('album').style.display = 'none';
+    } else {
+      document.getElementById('albumName').innerHTML = json.recenttracks.track[0].album["#text"];
+    }
     document.getElementById('songLink').href = json.recenttracks.track[0].url
     if (json.recenttracks.track[0].image[2]["#text"] == "") {
         document.getElementById('songImage').src = "/Images/misc/player_default_album.png"
