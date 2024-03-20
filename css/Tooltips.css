@@ -1,6 +1,6 @@
 @font-face {
     font-family: Minecraft;
-    src: url(/Fonts/Minecraft.otf);
+    src: url(/Fonts/Monocraft-no-ligatures.ttf);
 }
 
 .tooltip {
@@ -14,7 +14,8 @@
     background: #000;
     color: #fff;
     font-family: Minecraft;
-    font-size: small;
+    font-size: 1.7vh;
+    padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 3px;
     padding-right: 3px;
