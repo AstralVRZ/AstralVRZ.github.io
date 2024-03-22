@@ -30,7 +30,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2.5fr 5fr 5fr 5fr 0.1fr;
+    grid-template-rows: 2.5fr 2.5fr 5fr 0.1fr;
     grid-auto-columns: 1fr;
     gap: 10px 1%;
     grid-auto-flow: row;
@@ -41,14 +41,13 @@ body {
     grid-template-areas:
         "header header header header header"
         "p1 main main main p2"
-        "p1 main main main p2"
         "p3 main main main p2"
         ". . . . .";
     margin: 0 auto;
     margin-top: 8%;
     margin-left: 22%;
     width: 60%;
-    height: 150vh;
+    height: 100vh;
 }
 
 .header {
