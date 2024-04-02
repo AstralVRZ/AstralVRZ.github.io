@@ -55,6 +55,10 @@ body {
   background-color: #8a2be2;
 }
 
+button:hover {
+  cursor: url('/Images/Cursors/LINK.CUR'), default;
+}
+
 .cont88x31 {
   display: flex;
 }
