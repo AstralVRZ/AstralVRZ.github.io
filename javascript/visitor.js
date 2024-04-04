@@ -56,6 +56,4 @@ if (/AstralVRZ/i.test(UA) || localStorage.getItem("Bypass") == 1) {
         },
         body: JSON.stringify(data),
       })
-      .then(response => console.log('Success:', response))
-      .catch(error => console.error('Error:', error));
 };
