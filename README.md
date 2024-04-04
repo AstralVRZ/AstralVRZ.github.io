@@ -4,7 +4,6 @@ Website where all my projects and some info about me are displayed.
 
 # Todo list
 - [ ] Finish about me page.
-- [ ] Finish Conner shrine page.
 - [ ] Add photo of my pin collection to about me.
 - [ ] Make rss feed maybe?
 - [ ] Make Library
@@ -18,3 +17,4 @@ Website where all my projects and some info about me are displayed.
 - [x] Do some cool css styling.
 - [x] Add Github link to my social links.
 - [x] Improve visitor.js
+- [x] Finish Conner shrine page.
