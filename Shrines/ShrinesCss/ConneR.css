@@ -38,8 +38,8 @@ audio::-webkit-media-controls-timeline {
 
 .headers {
     color: black;
+    text-shadow: 0.9px 0.9px #505050;
     font-weight: bold;
-    text-shadow: none;
 }
 
 .va {
