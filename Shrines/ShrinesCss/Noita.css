@@ -11,13 +11,17 @@
     vertical-align: middle;
 }
 
+html {
+    cursor: url('/Images/Cursors/DEFAULTWHITE.CUR'), default;
+
+}
+
 body{
     background-image: url(/Shrines/ShrineMedia/Noita/Images/Main-background.jpeg);
     background-size: 100%;
     font-family: NoitaPixel;
     font-size: 2.5vh;
     color: #ffdc8a;
-    cursor: url('/Images/Cursors/DEFAULTWHITE.CUR'), default;
 }
 
 sup{

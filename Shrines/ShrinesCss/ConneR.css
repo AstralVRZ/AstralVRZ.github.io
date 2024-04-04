@@ -3,14 +3,16 @@
     src: url(/Fonts/raster.ttf);
 }
 
+html {
+    cursor: url('/Images/Cursors/DEFAULTBLACK.CUR'), default;
+}
+
 body {
     color: #c97f42;
     font-family: "Font";
     font-size: 3vh;
     background-image: url(/Shrines/ShrineMedia/ConneR/Images/ConneRBG.gif);
     background-size: 100%;
-    cursor: url('/Images/Cursors/DEFAULTBLACK.CUR'), default;
-
 }
 
 audio::-webkit-media-controls-panel {
