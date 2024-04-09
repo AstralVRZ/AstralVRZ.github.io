@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var insert = new Audio('Audio/WindowsXPHardwareInsert.mp3');
     var remove = new Audio('Audio/WindowsXPHardwareRemove.mp3');
     var click = new Audio('Audio/winclick.mp3');
-    var error = new Audio('Audio/WindowsXpError.mp3')
+    var error = new Audio('Audio/WindowsXPError.mp3')
 
     if (randInt == 1 || randInt == 5 || randInt == 9 || randInt == 3) {
         reminder.style.display = 'block';
