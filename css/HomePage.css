@@ -75,7 +75,7 @@ button:hover {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 200px 100px 120px 100px 200px 100px 280px max-content;
+  grid-template-rows: 200px 100px 120px 100px 200px 100px 280px max-content 50px;
   grid-auto-columns: 1fr;
   gap: 10px 1%;
   grid-auto-flow: row;
@@ -91,7 +91,8 @@ button:hover {
     "lfm lfm nekoWeb p10 p5"
     "p3  foot foot foot p5"
     "p8 foot foot foot p9"
-    "p4 p4 p4 p4 p4";
+    "p4 p4 p4 p4 p4"
+    "p11 p11 p11 p11 p11";
   margin: 0 auto;
   margin-top: 8%;
   margin-left: auto;
@@ -269,6 +270,18 @@ button:hover {
   position: relative;
   color:#fff;
   padding: 3px;
+}
+
+.p11 {
+  grid-area: p11;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  border: #8a2be2 2px solid;
+  border-radius: 10px;
+  scrollbar-width: none;
+  overflow: auto;
+  position: relative;
 }
 
 .foot {
