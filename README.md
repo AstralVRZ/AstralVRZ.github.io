@@ -6,10 +6,9 @@ Website where all my projects and some info about me are displayed.
 - [ ] Finish about me page.
 - [ ] Add photo of my pin collection to about me.
 - [ ] Make rss feed maybe?
-- [ ] Make Library
-- [ ] Add section for Noita deaths
-- [ ] add a (joke) "Privacy policy" 
-
+- [ ] Make Library.
+- [ ] Add section for Noita deaths.
+- [ ] Fix wired webring marquee.
 
 # Done
 - [x] Complete rewrite.
@@ -19,3 +18,4 @@ Website where all my projects and some info about me are displayed.
 - [x] Add Github link to my social links.
 - [x] Improve visitor.js
 - [x] Finish Conner shrine page.
+- [x] add a ~~(joke) "Privacy policy"~~ [Privacy policy](https://astralvrz.github.io/Privacy/).
