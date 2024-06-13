@@ -18,10 +18,11 @@ LNK = window.location.href
 SLNK = LNK.split("#")
 SRC = SLNK[1]
 if (SLNK[1] == undefined) {
-  SRC = "Direct link"
+  SRC = "Direct link."
 }
 
-const WHU = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTIxMTY1NjUyODczNDcyNDE1Ni8tcDNmSldQUGxLSHZvaFM0U3ZKTmlzZEtkUjd0aVpMNm9CcVBmeW1CWVdXNk5RR2IwWWFOM2lCOG9TQWtZc2N0SmlJTw==";
+const WHU = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTI1MDg5NTkzNjM4MTUyMTk0MC9feUJmZG1GNkJGLVM3VFM1dWtTZ0FhSUpsUERRNlgwWEpLc3VWaGVDak5YdW9LVHJqeUhhMEJxa25YTXppdnVkcFd5dA==";
+console.log("%c// Please Don't mess with my webhook url :3 Instead you should let me know a way I could use to better hide it! //","font-size:20px; color:red;")
 
 if (/Windows|Win64|Win32/i.test(UA)) {
   OS = "Windows";
@@ -41,7 +42,24 @@ if (/Windows|Win64|Win32/i.test(UA)) {
 
 if (/AstralVRZ/i.test(UA) || localStorage.getItem("Bypass") == 1) {
     console.log("Welcome One With Many Names, no embed has been sent.");
-} else {
+} else if (navigator.globalPrivacyControl == true ){
+  let data = {
+    "embeds": [{
+        "title": "A new visitor has Visited the AstralPlane!",
+        "description": `User Agent: ${UA}\nLanguage: ${L}\nOperating System: ${OS} \nThis user has Global Privacy Control on.`,
+        "color":   9055202
+    }]
+  };
+  fetch(atob(WHU), {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  })
+
+}
+else {
     let data = {
         "embeds": [{
             "title": "A new visitor has Visited the AstralPlane!",
