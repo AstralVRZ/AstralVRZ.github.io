@@ -8,7 +8,7 @@ Website where all my projects and some info about me are displayed.
 - [ ] Make rss feed maybe?
 - [ ] Make Library.
 - [ ] Add section for Noita deaths.
-- [ ] Fix wired webring marquee.
+- [ ] ~~Fix wired webring~~ All marquee.
 
 # Done
 - [x] Complete rewrite.
