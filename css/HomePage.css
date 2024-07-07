@@ -388,6 +388,10 @@ button:hover {
   .p10 {
     display: none;
   }
+  
+  .p11 {
+    order: 12;
+  }
 
   .lastfm {
     order: 12;
