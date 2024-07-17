@@ -1,3 +1,23 @@
 User-agent: GPTBot
 Disallow: /
+
+User-agent: ChatGPT-user
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+‍User-agent: Claude-Web
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+
 Sitemap: https://astralvrz.github.io/sitemap.xml
