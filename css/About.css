@@ -128,22 +128,12 @@ body {
         display: none
     }
 
-    .p2 {
-        height: 25%;
-        order: 3;
-        height: 150%;
-    }
-
     body {
         font-size: 3vh;
     }
 
     ul {
         margin-left: 28%;
-    }
-
-    .p3 {
-        order: 4;
     }
 
     .foot {
