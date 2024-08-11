@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Font;
+    src: url(/Fonts/pc-9800-bold.ttf);
+}
+body{
+    background-image: url(/TOS/OrionNebula.jpg);
+    background-size: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.96;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2.5px solid #fff;
+    border-radius: 8px;
+    color: white;
+    font-family: Font;
+    width: 75%;
+    position: relative;
+}
+.main h1 {
+    text-align: center;
+    font-size: 6vh;
+}
+hr{
+    color: rgba(0, 0, 0, 0);
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 95%;
+}
+p {
+    margin: 2.5%;
+    font-size: 3vh;
+}
+ul{
+    margin: 2.5%;
+    font-size: 3vh;
+}
+a {
+    color: rgb(138, 43, 226);
+    text-decoration: underline dashed;
+    transition: color 0.25s ease-in-out;
+}
+
+a:hover {
+    color: #FBB1C0;
+}
