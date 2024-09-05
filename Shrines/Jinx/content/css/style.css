@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: Monocraft;
+    src: url(../font/Monocraft-no-ligatures.ttf);
+}
+body{
+    background-image: url(../img/OrionNebula.jpg);
+    background-size: 100%;
+}
+p, h1 {
+    color: violet;
+    font-family: Monocraft;
+}
+h2 {
+    color: pink;
+    font-family: Monocraft;
+}
+
+a {
+    color: pink;
+}
+a:hover{
+    color: blueviolet;
+    transition: ease-in-out 0.5s;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.96;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2.5px solid #000;
+    border-radius: 8px;
+    color: white;
+    width: 75%;
+    position: relative;
+    text-align: center;
+}
+
+.heart {
+    text-align: center;
+}
