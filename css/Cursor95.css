@@ -1,7 +1,7 @@
 html {
-  cursor: url('Images/Cursors/arrow.cur'), default;
+  cursor: url('../Images/Cursors/arrow.cur'), default;
 }
 
 a {
-  cursor: url('Images/Cursors/help_win95.cur'), default;
+  cursor: url('../Images/Cursors/help_win95.cur'), default;
 }
