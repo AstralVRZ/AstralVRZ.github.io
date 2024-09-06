@@ -1,18 +1,18 @@
 @font-face {
   font-family: Agency FB;
-  src: url(/Fonts/Agency_FB.ttf);
+  src: url(../Fonts/Agency_FB.ttf);
 }
 
 @font-face {
   font-family: Glyphs;
-  src: url(/Fonts/NoitaGlyphScaled.ttf);
+  src: url(../Fonts/NoitaGlyphScaled.ttf);
 }
 
 body {
   color: #8a2be2;
   font-family: Agency FB;
   font-size: 3vh;
-  background-image: url(/Images/Background/spacebackground.gif);
+  background-image: url(Images/Background/spacebackground.gif);
 }
 
 #title {
@@ -56,7 +56,7 @@ body {
 }
 
 button:hover {
-  cursor: url('/Images/Cursors/LINK.CUR'), default;
+  cursor: url('Images/Cursors/LINK.CUR'), default;
 }
 
 .cont88x31 {
@@ -114,7 +114,7 @@ button:hover {
   height: 100%;
   object-fit: fill;
   background-position: 57% 50%;
-  background-image: url('/Images/Background/purpskybg.jpg');
+  background-image: url('Images/Background/purpskybg.jpg');
   border-radius: 8px;
 }
 
@@ -258,7 +258,7 @@ button:hover {
 
 .p10 {
   grid-area: p10;
-  background-image: url(/Images/misc/genos.gif);
+  background-image: url(Images/misc/genos.gif);
   background-size:cover;
   height: 100%;
   width: 100%;

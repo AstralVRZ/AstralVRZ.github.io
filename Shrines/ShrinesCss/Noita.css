@@ -1,10 +1,10 @@
 @font-face{
     font-family: NoitaPixel;
-    src: url(/Fonts/NoitaPixel.ttf);
+    src: url(Fonts/NoitaPixel.ttf);
 }
 @font-face{
     font-family: NoitagGlyph;
-    src: url(/Fonts/NoitaGlyphScaled.ttf);
+    src: url(Fonts/NoitaGlyphScaled.ttf);
 }
 
 .va {
@@ -12,12 +12,12 @@
 }
 
 html {
-    cursor: url('/Images/Cursors/DEFAULTWHITE.CUR'), default;
+    cursor: url('Images/Cursors/DEFAULTWHITE.CUR'), default;
 
 }
 
 body{
-    background-image: url(/Shrines/ShrineMedia/Noita/Images/Main-background.jpeg);
+    background-image: url(Shrines/ShrineMedia/Noita/Images/Main-background.jpeg);
     background-size: 100%;
     font-family: NoitaPixel;
     font-size: 2.5vh;
@@ -94,7 +94,7 @@ a {
 
 a:hover{
     color: #ffffff;
-    cursor: url('/Images/Cursors/LINKWHITE.CUR'), default;
+    cursor: url('Images/Cursors/LINKWHITE.CUR'), default;
 }
 
 #title{

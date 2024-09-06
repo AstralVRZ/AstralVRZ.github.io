@@ -1,6 +1,6 @@
 @font-face {
     font-family: Raster;
-    src: url(/Fonts/raster.ttf);
+    src: url(../Fonts/raster.ttf);
 }
 
 body {
@@ -78,7 +78,7 @@ blink {
 .tooltip:hover::after {
     visibility: visible;
     opacity: 1;
-	cursor: url('/Images/Cursors/help_win95.cur'), default;
+	cursor: url('Images/Cursors/help_win95.cur'), default;
 }
 
 .aa{
@@ -90,7 +90,7 @@ blink {
 .aa:hover{
 	color: blue;
 	text-decoration: underline;
-	cursor: url('/Images/Cursors/help_win95.cur'), default;
+	cursor: url('Images/Cursors/help_win95.cur'), default;
 }
 
 a   {

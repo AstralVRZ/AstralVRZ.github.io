@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    $('#linkList').load("/linkList.html");
+    $('#linkList').load("linkList.html");
 });
