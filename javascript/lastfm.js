@@ -13,7 +13,7 @@ const getInfo = async () => {
     }
     document.getElementById('songLink').href = json.recenttracks.track[0].url
     if (json.recenttracks.track[0].image[2]["#text"] == "") {
-        document.getElementById('songImage').src = "Images/misc/player_default_album.png"
+        document.getElementById('songImage').src = window.location.origin + "/Images/misc/player_default_album.png"
     } else {
         document.getElementById('songImage').src = json.recenttracks.track[0].image[3]["#text"];
     }
