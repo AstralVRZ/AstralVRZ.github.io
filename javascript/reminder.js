@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const pos1 = Math.floor(Math.random() * 90);
     const pos2 = Math.floor(Math.random() * 80);
     const randInt = Math.floor(Math.random()* 10)
-    var insert = new Audio('Audio/WindowsXPHardwareInsert.mp3');
-    var remove = new Audio('Audio/WindowsXPHardwareRemove.mp3');
-    var click = new Audio('Audio/winclick.mp3');
-    var error = new Audio('Audio/WindowsXPError.mp3')
+    var insert = new Audio(window.location.origin + '/Audio/WindowsXPHardwareInsert.mp3');
+    var remove = new Audio(window.location.origin + '/Audio/WindowsXPHardwareRemove.mp3');
+    var click = new Audio(window.location.origin + '/Audio/winclick.mp3');
+    var error = new Audio(window.location.origin + '/Audio/WindowsXPError.mp3')
 
     if (randInt == 1 || randInt == 5 || randInt == 9 || randInt == 3) {
         reminder.style.display = 'block';

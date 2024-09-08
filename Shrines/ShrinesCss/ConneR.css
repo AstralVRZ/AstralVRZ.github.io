@@ -1,39 +1,39 @@
 @font-face {
     font-family: "Font";
-    src: url(/Fonts/raster.ttf);
+    src: url(../../Fonts/raster.ttf);
 }
 
 html {
-    cursor: url('/Images/Cursors/DEFAULTBLACK.CUR'), default;
+    cursor: url('../../Images/Cursors/DEFAULTBLACK.CUR'), default;
 }
 
 body {
     color: #c97f42;
     font-family: "Font";
     font-size: 3vh;
-    background-image: url(/Shrines/ShrineMedia/ConneR/Images/ConneRBG.gif);
+    background-image: url(../ShrineMedia/ConneR/Images/ConneRBG.gif);
     background-size: 100%;
 }
 
 audio::-webkit-media-controls-panel {
     background-color: #c97f42;
-    cursor: url('/Images/Cursors/DEFAULTBLACK.CUR'), default;
+    cursor: url('../../Images/Cursors/DEFAULTBLACK.CUR'), default;
 }
 
 audio::-webkit-media-controls-mute-button {
-    cursor: url('/Images/Cursors/LINKBLACK.CUR'), default;
+    cursor: url('../../Images/Cursors/LINKBLACK.CUR'), default;
 }
 
 audio::-webkit-media-controls-play-button {
-    cursor: url('/Images/Cursors/LINKBLACK.CUR'), default;
+    cursor: url('../../Images/Cursors/LINKBLACK.CUR'), default;
 }
 
 audio::-webkit-media-controls-volume-slider {
-    cursor: url('/Images/Cursors/DEFAULTBLACK.CUR'), default;
+    cursor: url('../../Images/Cursors/DEFAULTBLACK.CUR'), default;
 }
 
 audio::-webkit-media-controls-timeline {
-    cursor: url('/Images/Cursors/DEFAULTBLACK.CUR'), default;
+    cursor: url('../../Images/Cursors/DEFAULTBLACK.CUR'), default;
 }
 
 .headers {
@@ -92,7 +92,7 @@ hr {
 a {
     color: #c97f42;
     text-decoration: underline dashed;
-    cursor: url('/Images/Cursors/LINKBLACK.CUR'), default;
+    cursor: url('../../Images/Cursors/LINKBLACK.CUR'), default;
 }
 
 a:hover {
@@ -143,7 +143,7 @@ a:hover {
     height: 100%;
     object-fit: fill;
     background-position: 57% 50%;
-    background-image: url(/Shrines/ShrineMedia/ConneR/Images/Header.jpg);
+    background-image: url(../ShrineMedia/ConneR/Images/Header.jpg);
     background-size: 80%;
     background-repeat: no-repeat;
 }

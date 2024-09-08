@@ -1,7 +1,7 @@
 html {
-  cursor: url('/Images/Cursors/DEFAULT.CUR'), default;
+  cursor: url('../Images/Cursors/DEFAULT.CUR'), default;
 }
 
 a {
-  cursor: url('/Images/Cursors/LINK.CUR'), default;
+  cursor: url('../Images/Cursors/LINK.CUR'), default;
 }
