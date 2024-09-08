@@ -1,9 +1,9 @@
 @font-face {
     font-family: Font;
-    src: url(Fonts/pc-9800-bold.ttf);
+    src: url(../Fonts/pc-9800-bold.ttf);
 }
 body{
-    background-image: url(TOS/OrionNebula.jpg);
+    background-image: url(../TOS/OrionNebula.jpg);
     background-size: 100%;
 }
 .container{
