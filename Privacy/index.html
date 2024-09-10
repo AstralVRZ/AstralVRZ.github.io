@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy</title>
-    <link rel="shortcut icon" href="/Images/AstralNoBG.svg">
+    <link rel="shortcut icon" href="../Images/AstralNoBG.svg">
     <style>
         @font-face {
             font-family: Font;
-            src: url(/Fonts/pc-9800-bold.ttf);
+            src: url(../Fonts/pc-9800-bold.ttf);
         }
-        body{
-            background-image: url(/TOS/OrionNebula.jpg);
+
+        body {
+            background-image: url(../TOS/OrionNebula.jpg);
             background-size: 100%;
         }
-        .container{
+
+        .container {
             display: flex;
             flex-direction: column;
             flex-grow: 0.96;
@@ -22,7 +25,8 @@
             justify-content: center;
             height: 90vh;
         }
-        .main{
+
+        .main {
             background-color: rgba(0, 0, 0, 0.5);
             border: 2.5px solid #fff;
             border-radius: 8px;
@@ -31,25 +35,30 @@
             width: 75%;
             position: relative;
         }
+
         .main h1 {
             text-align: center;
             font-size: 6vh;
         }
-        hr{
+
+        hr {
             color: rgba(0, 0, 0, 0);
             height: 10px;
             background-color: rgb(255, 255, 255);
             border-radius: 5px;
             width: 95%;
         }
+
         p {
             margin: 2.5%;
             font-size: 3vh;
         }
-        ul{
+
+        ul {
             margin: 2.5%;
             font-size: 3vh;
         }
+
         a {
             color: rgb(138, 43, 226);
             text-decoration: underline dashed;
@@ -61,6 +70,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="main">
@@ -69,14 +79,16 @@
             <p>
                 When visiting and using this website the following data will be used and or stored<sup>[1]</sup>:
             </p>
-                <ul>
-                    <li>Your useragent.</li>
-                    <li>The language of your browser.</li>
-                    <li>A Unique User Identifier (UUID).</li>
-                    <li>How many times you have visited this site.</li>
-                </ul>
+            <ul>
+                <li>Your useragent.</li>
+                <li>The language of your browser.</li>
+                <li>A Unique User Identifier (UUID).</li>
+                <li>How many times you have visited this site.</li>
+            </ul>
             <p>
-                <sup>[1] all this data will be stored in the localstorage of your browser and maybe sent to a webhook on Discord in my Discord server. (if you have GCP on only your useragent will be sent to the webhook.)</sup>
+                <sup>[1] all this data will be stored in the localstorage of your browser and maybe sent to a webhook on
+                    Discord in my Discord server. (if you have GCP on only your useragent will be sent to the
+                    webhook.)</sup>
             </p>
             <hr>
             <p>
@@ -85,4 +97,5 @@
         </div>
     </div>
 </body>
+
 </html>

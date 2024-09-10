@@ -1,13 +1,13 @@
 @font-face {
     font-family: Agency FB;
-    src: url(/Fonts/Agency_FB.ttf);
+    src: url(../Fonts/Agency_FB.ttf);
 }
 
 body {
     color: #8a2be2;
     font-family: Agency FB;
     font-size: 3vh;
-    background-image: url(/Images/Background/spacebackground.gif);
+    background-image: url(../Images/Background/spacebackground.gif);
 }
 
 #title {
@@ -55,7 +55,7 @@ body {
     height: 100%;
     object-fit: fill;
     background-position: 57% 50%;
-    background-image: url('/Images/Background/purpskybg.jpg');
+    background-image: url('../Images/Background/purpskybg.jpg');
     border-radius: 5px;
 }
 
