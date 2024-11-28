@@ -54,6 +54,7 @@ blink {
     display: inline;
     color: blue;
     text-decoration: underline;
+	z-index: 100;
 }
 
 .tooltip::after {
